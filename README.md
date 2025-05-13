@@ -13,11 +13,13 @@ npm run dev
 
 ```
 src/
-├── assets/         # Assets and images
-├── components/     # React components
-├── shaders/        # WebGL shaders (GLSL)
-├── main.jsx        # App entry point
-├── index.css       # Global styles
+├── assets/         # Assets and Images
+├── components/
+    ├── CSS/        # React Component Styling
+    ├── JSX/        # React Component JSX Files
+├── shaders/        # WebGL Shaders (GLSL)
+├── main.jsx        # App Entry Point
+├── main.css        # Global Styles
 ```
 
 ## License
