@@ -1,0 +1,20 @@
+.home-page-select {
+    transition: transform 0.5s ease;
+
+    background-Size: cover;
+    background-Position: center;
+    background-Repeat: no-repeat;
+}
+
+.home-page-select:hover {
+    transform: scale(1.05);
+}
+
+#about-me {
+    background-image: url("../../assets/JoshuaHouseHeadshot.jpeg");
+}
+
+#contact-me {
+    background-image: url("../../assets/Mail-Icon.png");
+    background-size: contain;
+}

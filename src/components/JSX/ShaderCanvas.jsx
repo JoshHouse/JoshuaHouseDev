@@ -211,7 +211,7 @@ function ShaderCanvas() {
     // Cleanup: remove the resize listener when the component is unmounted
     return () => {
       window.removeEventListener('resize', resizeCanvas);
-    };
+    }
 
 
   }, []); // Empty dependency array means this only runs once (on mount)
