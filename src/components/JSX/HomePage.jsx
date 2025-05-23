@@ -28,7 +28,9 @@ function HomePage({ setPage }) {
     <div className="w-100 vh-100 bg-light d-flex flex-column justify-content-around align-items-center">
       
       <h1 className="m-0">JoshuaHouse.dev</h1>
-      <p className="m-0"><em>Hello! My name is Joshua House. This is a website to display my education, work, and project history.</em></p>
+      <p className="m-0">
+        <em>Hello! My name is Joshua House. This is a website to display my educational, work related, and project achievements.</em>
+      </p>
 
       <div className="w-75 h-75 bg-white rounded shadow-sm d-flex flex-column justify-content-center align-items-center p-3 gap-3"> 
         
