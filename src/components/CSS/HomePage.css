@@ -1,6 +1,7 @@
 .home-page-select {
     transition: transform 0.5s ease;
 
+    min-height: 35vh;
     background-Size: cover;
     background-Position: center;
     background-Repeat: no-repeat;
