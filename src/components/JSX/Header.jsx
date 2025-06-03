@@ -3,6 +3,7 @@ import AboutMe from "./AboutMe";
 
 function Header({ setPage }) {
     
+    // Functions To Handle Page Switches
     const handleHomeClick = () => {
         setPage("home");
         console.log('About Me clicked');
@@ -28,70 +29,80 @@ function Header({ setPage }) {
         console.log('Contact Me clicked');
     };
   
+
+
     return (
-    <nav className="navbar navbar-expand-md bg-primary bg-opacity-75 ps-3 pe-3 pe-md-0">
         
-        <a onClick={handleHomeClick} 
-            className="navbar-brand text-light fw-bold">
-            
-            JoshuaHouse.dev
+        <nav className="navbar navbar-expand-md bg-primary bg-opacity-75 ps-3 pe-3 pe-md-0">
+            {/* Navbar Container */}
 
-        </a>
-
-
-        <button className="navbar-toggler px-3" 
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarMenu"
-            aria-controls="navbarMenu"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-
-            <span className="navbar-toggler-icon"></span>
-
-        </button>
-
-        <div id="navbarMenu"
-            className="collapse navbar-collapse justify-content-end align-center">
-            
-            <ul className="navbar-nav">
+            {/* JoshuaHouse.dev Brand */}
+            <a onClick={handleHomeClick} 
+                className="navbar-brand text-light fw-bold">
                 
-                <li className="nav-item">
-                    <a className="nav-link px-2 border-start border-light text-light" 
-                        onClick={handleHistoryClick}>
-                        My Education and Work History
-                    </a>
-                </li>
+                JoshuaHouse.dev
 
-                <li className="nav-item">
-                    <a className="nav-link px-2 border-start border-light text-light" 
-                        onClick={handleMyProjectsClick}>
-                        My Projects
-                    </a>
-                </li>
+            </a>
 
-                <li className="nav-item">
-                    <a className="nav-link px-2 border-start border-light text-light" 
-                        onClick={handleAboutMeClick}>
-                        About Me
-                    </a>
-                </li>
+            {/* Collapsable Menu Expand Button (Visible on Small Screens) */}
+            <button className="navbar-toggler px-3" 
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span className="navbar-toggler-icon"></span>
+
+            </button>
+
+            {/* Collapsable Menu */}
+            <div id="navbarMenu"
+                className="collapse navbar-collapse justify-content-end align-center">
                 
-                <li className="nav-item">
-                    <a className="nav-link px-2 border-start border-light text-light" 
-                        onClick={handleContactMeClick}>
-                        Contact Me
-                    </a>
-                </li>
+                
+                <ul className="navbar-nav">
+                    
+                    {/* Education and Work History Button */}
+                    <li className="nav-item">
+                        <a className="nav-link px-2 border-start border-light text-light" 
+                            onClick={handleHistoryClick}>
+                            My Education and Work History
+                        </a>
+                    </li>
+
+                    {/* My Projects Button */}
+                    <li className="nav-item">
+                        <a className="nav-link px-2 border-start border-light text-light" 
+                            onClick={handleMyProjectsClick}>
+                            My Projects
+                        </a>
+                    </li>
+
+                    {/* About Me Button */}
+                    <li className="nav-item">
+                        <a className="nav-link px-2 border-start border-light text-light" 
+                            onClick={handleAboutMeClick}>
+                            About Me
+                        </a>
+                    </li>
+                    
+                    {/* Contact Me Button */}
+                    <li className="nav-item">
+                        <a className="nav-link px-2 border-start border-light text-light" 
+                            onClick={handleContactMeClick}>
+                            Contact Me
+                        </a>
+                    </li>
+                
+                </ul>
             
-            </ul>
+            </div>
         
-        </div>
+        </nav>
     
-    </nav>
-    
-
-  );
+    );
 }
 
 export default Header;

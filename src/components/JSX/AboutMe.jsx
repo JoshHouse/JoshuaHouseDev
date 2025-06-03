@@ -5,21 +5,33 @@ import '../CSS/AboutMe.css';
 function AboutMe( {setPage} ) {
 
     return (
+        
         <div className="w-100 bg-light">
+            {/* Background Color Page Container */}
+            
+            {/* Header Element */}
             <Header setPage={setPage}/>
 
+            {/* Page Content Container */}
             <div className="container py-4 bg-light">
+                
+                {/* Name Input */}
                 <h1 className="text-primary text-start fw-bold">About Me</h1>
                 <hr className="my-4 border border-primary border-2"/>
 
                 <div className="row">
+                    
                     <div className="col-12">
+                        
+                        {/* Headshot Image */}
                         <img
                             src="src/assets/JoshuaHouseHeadshot.jpeg"
                             id="about-me-image-1"
                             className="img-fluid float-end ms-5 mb-3 rounded border border-2 border-primary"
                             alt="Joshua House Headshot"
                         />
+                        
+                        {/* Intro Section */}
                         <h2 className="text-primary text-start">Intro</h2>
                         <hr className="my-4 border border-primary border-2"/>
 
@@ -40,6 +52,7 @@ function AboutMe( {setPage} ) {
                             world upside down! 
                         </p>
                         
+                        {/* Tech Motivation Section */}
                         <h2 className="text-primary text-start">Why Tech?</h2>
                         <hr className="my-4 border border-primary border-2"/>
 
@@ -60,6 +73,7 @@ function AboutMe( {setPage} ) {
                             Science seemed like a logical choice!
                         </p>
 
+                        {/* My Passion Section */}
                         <h2 className="text-primary text-start">My Passion</h2>
                         <hr className="my-4 border border-primary border-2"/>
 
@@ -84,11 +98,15 @@ function AboutMe( {setPage} ) {
                             indie project I develop outside of working hours!
                         </p>
 
+                        {/* My Journey Title */}
                         <h2 className="text-primary text-start">My Journey</h2>
                         <hr className="my-4 border border-primary border-2"/>
 
                         <div className="row">
+                            
+                            {/* My Struggles Section */}
                             <div className="col-11 offset-1">
+                                
                                 <h4 className="text-primary text-start">My Struggles</h4>
                                 <hr className="my-4 border border-primary border-2"/>
 
@@ -111,9 +129,12 @@ function AboutMe( {setPage} ) {
                                     way a sober and focused student would have been. Little did I know that a simple diagnosis going into my senior year would validate 
                                     my suspicion that I was always capable of learning these topics. I just needed this mental barricade removed.
                                 </p>
+                                
                             </div>
                             
+                            {/* Bouncing Back Section */}
                             <div className="col-11 offset-1">
+                                
                                 <h4 className="text-primary text-start">Bouncing Back</h4>
                                 <hr className="my-4 border border-primary border-2"/>
 
@@ -132,9 +153,12 @@ function AboutMe( {setPage} ) {
                                     our time and that we needed to wrap up our presentation quickly! If you want to learn more about the project, it is linked 
                                     in the "My Projects" section. 
                                 </p>
+
                             </div>
 
+                            {/* Thriving Section */}
                             <div className="col-11 offset-1">
+                                
                                 <h4 className="text-primary text-start">Thriving</h4>
                                 <hr className="my-4 border border-primary border-2"/>
 
@@ -153,6 +177,7 @@ function AboutMe( {setPage} ) {
                                     but, that gives you a general idea! All-in-all, I am extremely proud of the progress I have made in a relatively short amount of time 
                                     and I'm excited to see the progress I continue to make wherever life takes me!
                                 </p>
+
                             </div>
 
                         </div>
