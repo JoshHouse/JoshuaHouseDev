@@ -27,10 +27,10 @@ function HomePage({ setPage }) {
   
   return (        
 
-    <div className="w-100 vh-100 bg-light">
+    <div className="w-100 vh-100 bg-primary-subtle pt-1 pb-1">
       
       {/* Background color container && Sizing Container */}
-      <div className="container py-3 vh-100">
+      <div className="container py-4 px-4 my-2 rounded bg-light">
         
         {/* Title */}
         <h1 className="m-0 text-primary">
@@ -58,7 +58,7 @@ function HomePage({ setPage }) {
               
               <div
                 id="about-me"
-                className="home-page-select col-12 col-lg-4 p-3 d-flex flex-column justify-content-end align-items-end rounded border border-dark"
+                className="home-page-select col-12 col-lg-4 p-3 d-flex flex-column justify-content-end align-items-end rounded border border-primary border-2"
                 onClick={handleAboutMeClick}
               >
                 
@@ -70,7 +70,7 @@ function HomePage({ setPage }) {
 
               <div
                 id="my-projects"
-                className="home-page-select col-12 col-lg-7 p-3 d-flex flex-column justify-content-end align-items-end rounded border border-dark"
+                className="home-page-select col-12 col-lg-7 p-3 d-flex flex-column justify-content-end align-items-end rounded border border-primary border-2"
                 onClick={handleMyProjectsClick}
               >
                 
@@ -87,7 +87,7 @@ function HomePage({ setPage }) {
               
               <div
                 id="history"
-                className="home-page-select col-12 col-lg-7 p-3 d-flex flex-column justify-content-end align-items-end rounded border border-dark"
+                className="home-page-select col-12 col-lg-7 p-3 d-flex flex-column justify-content-end align-items-end rounded border border-primary border-2"
                 onClick={handleHistoryClick}
               >
                 
@@ -99,7 +99,7 @@ function HomePage({ setPage }) {
 
               <div
                 id="contact-me"
-                className="home-page-select col-12 col-lg-4 p-3 d-flex flex-column justify-content-end align-items-end rounded border border-dark"
+                className="home-page-select col-12 col-lg-4 p-3 d-flex flex-column justify-content-end align-items-end rounded border border-primary border-2"
                 onClick={handleContactMeClick}
               >
                 

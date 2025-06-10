@@ -1,0 +1,17 @@
+.project-page-select {
+    transition: transform 0.5s ease;
+    height: 20vh;
+}
+
+.project-page-select:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.w-66 {
+  width: 66.66%;
+}
+
+.w-34 {
+  width: 33.33%;
+}

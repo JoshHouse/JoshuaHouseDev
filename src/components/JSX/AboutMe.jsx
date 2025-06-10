@@ -6,16 +6,16 @@ function AboutMe( {setPage} ) {
 
     return (
         
-        <div className="w-100 bg-light">
+        <div className="w-100 bg-primary-subtle">
             {/* Background Color Page Container */}
             
             {/* Header Element */}
             <Header setPage={setPage}/>
 
             {/* Page Content Container */}
-            <div className="container py-4 bg-light">
+            <div className="container py-4 px-4 my-2 rounded bg-light">
                 
-                {/* Name Input */}
+                {/* Title */}
                 <h1 className="text-primary text-start fw-bold">About Me</h1>
                 <hr className="my-4 border border-primary border-2"/>
 
@@ -25,7 +25,7 @@ function AboutMe( {setPage} ) {
                         
                         {/* Headshot Image */}
                         <img
-                            src="src/assets/JoshuaHouseHeadshot.jpeg"
+                            src="src/assets/images/JoshuaHouseHeadshot.jpeg"
                             id="about-me-image-1"
                             className="img-fluid float-end ms-5 mb-3 rounded border border-2 border-primary"
                             alt="Joshua House Headshot"

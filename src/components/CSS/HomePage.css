@@ -9,13 +9,14 @@
 
 .home-page-select:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 #about-me {
-    background-image: url("../../assets/JoshuaHouseHeadshot.jpeg");
+    background-image: url("../../assets/images/JoshuaHouseHeadshot.jpeg");
 }
 
 #contact-me {
-    background-image: url("../../assets/Mail-Icon.png");
+    background-image: url("../../assets/images/Mail-Icon.png");
     background-size: contain;
 }

@@ -37,14 +37,14 @@ function ContactMe( {setPage} ) {
 
     return (
         
-        <div className="w-100 bg-light">
+        <div className="w-100 bg-primary-subtle">
             {/* Page Background Container */}
             
             {/* Header Component */}
             <Header setPage={setPage}/>
 
             {/* Page Sizing Container */}
-            <div className="container py-4">
+            <div className="container py-4 px-4 my-2 rounded bg-light">
                 
                 {/* Title */}
                 <h1 className="text-primary text-start fw-bold">
@@ -168,7 +168,7 @@ function ContactMe( {setPage} ) {
                     {/* Submit Button */}
                     <div className="d-grid gap-2">
                         
-                        <button class="btn btn-primary" type="submit">
+                        <button className="btn btn-primary" type="submit">
                             Send
                         </button>
                     

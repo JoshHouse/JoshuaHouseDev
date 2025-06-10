@@ -5,11 +5,11 @@ function History( {setPage} ) {
 
     return (
         
-        <div className="w-100 bg-light">
+        <div className="w-100 bg-primary-subtle">
             
             <Header setPage={setPage}/>
             
-            <div className="container py-4">
+            <div className="container py-4 px-4 my-2 rounded bg-light">
 
                 {/* Title */}
                 <h1 className="text-primary text-start fw-bold">
