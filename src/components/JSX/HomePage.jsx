@@ -27,7 +27,9 @@ function HomePage({ setPage }) {
   
   return (        
 
-    <div className="w-100 vh-100 bg-primary-subtle pt-1 pb-1">
+    <div
+      id="home-page-container" 
+      className="w-100 bg-primary-subtle pt-1 pb-1">
       
       {/* Background color container && Sizing Container */}
       <div className="container py-4 px-4 my-2 rounded bg-light">
