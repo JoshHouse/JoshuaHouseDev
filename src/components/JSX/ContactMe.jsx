@@ -66,7 +66,7 @@ function ContactMe( {setPage} ) {
                         <p className="text-dark">
                             If you would like to reach out through official channels 
                             (ie. company email or company phone) my email and phone 
-                            number are listed below. Otherwise feel free to reach out 
+                            number are listed below. Otherwise, feel free to reach out 
                             through the contact form below. You can expect a reply 
                             within 24 hours of the time you send the message!
                         </p>

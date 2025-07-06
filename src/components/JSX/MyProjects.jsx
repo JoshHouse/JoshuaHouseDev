@@ -78,6 +78,21 @@ function MyProjects( {setPage} ) {
 
                 </div>
 
+                <div className="row my-2">
+                    <div className="col-12">
+                        <h2 className="text-primary text-start">Skills Developed</h2>
+                        <hr className="my-4 border border-primary border-2"/>
+                    </div>
+
+                    <div className="col-11 offset-1">
+                        <h4 className="text-dark">- Unity 3D Game Development </h4>
+                        <h4 className="text-dark">- C# Development </h4>
+                        <h4 className="text-dark">- Git Version Control with Unity </h4>
+                        <h4 className="text-dark">- Vector and Physics Application in 3D Enviornments </h4>
+                        <h4 className="text-dark">- Group Collaboration and Team Dynamics </h4>
+                        
+                    </div>
+                </div>
 
                 <hr className="my-4 border border-primary border-2"/>
 
@@ -107,6 +122,23 @@ function MyProjects( {setPage} ) {
 
                 </div>
 
+                <div className="row my-2">
+                    <div className="col-12">
+                        <h2 className="text-primary text-start">Skills Developed</h2>
+                        <hr className="my-4 border border-primary border-2"/>
+                    </div>
+
+                    <div className="col-11 offset-1">
+                        <h4 className="text-dark">- Bootstrap Web Development </h4>
+                        <h4 className="text-dark">- JQuery Scripting </h4>
+                        <h4 className="text-dark">- Flask Web Development </h4>
+                        <h4 className="text-dark">- SQL Databases Through SQLAlchemy </h4>
+                        <h4 className="text-dark">- User Authentication Using Flask_Bcrypt </h4>
+                        <h4 className="text-dark">- Git Version Control </h4>
+                        
+                    </div>
+                </div>
+
                 <hr className="my-4 border border-primary border-2"/>
 
                 {/* WGJ - Weather Dashboard */}
@@ -133,6 +165,24 @@ function MyProjects( {setPage} ) {
 
                     </div>
 
+                </div>
+
+                <div className="row my-2">
+                    <div className="col-12">
+                        <h2 className="text-primary text-start">Skills Developed</h2>
+                        <hr className="my-4 border border-primary border-2"/>
+                    </div>
+
+                    <div className="col-11 offset-1">
+                        <h4 className="text-dark">- Project Documentation through Confluence </h4>
+                        <h4 className="text-dark">- Development Progress Tracking using Jira </h4>
+                        <h4 className="text-dark">- React Web Development </h4>
+                        <h4 className="text-dark">- Python Web Development using Flask </h4>
+                        <h4 className="text-dark">- Constructing an API using processes </h4>
+                        <h4 className="text-dark">- Team Leadership and Management </h4>
+                        <h4 className="text-dark">- Git Version Control </h4>
+                        
+                    </div>
                 </div>
 
                 <hr className="my-4 border border-primary border-2"/>
