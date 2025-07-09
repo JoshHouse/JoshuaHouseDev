@@ -213,6 +213,21 @@ function MyProjects( {setPage} ) {
 
                 </div>
 
+                <div className="row my-2">
+                    <div className="col-12">
+                        <h2 className="text-primary text-start">Skills Developed</h2>
+                        <hr className="my-4 border border-primary border-2"/>
+                    </div>
+
+                    <div className="col-11 offset-1">
+                        <h4 className="text-dark">- Modeling using Blender </h4>
+                        <h4 className="text-dark">- Rigging in Blender </h4>
+                        <h4 className="text-dark">- Animations in Blender </h4>
+                        <h4 className="text-dark">- Importing and Playing Animations in Unity </h4>
+                        
+                    </div>
+                </div>
+
                 <hr className="my-4 border border-primary border-2"/>
 
                 {/* Ray Tracer */}
@@ -295,6 +310,21 @@ function MyProjects( {setPage} ) {
 
                     </div>
 
+                </div>
+
+                <div className="row my-2">
+                    <div className="col-12">
+                        <h2 className="text-primary text-start">Skills Developed</h2>
+                        <hr className="my-4 border border-primary border-2"/>
+                    </div>
+
+                    <div className="col-11 offset-1">
+                        <h4 className="text-dark">- Object Oriented Programming </h4>
+                        <h4 className="text-dark">- Java Class Heirarchies </h4>
+                        <h4 className="text-dark">- Team Leadership </h4>
+                        <h4 className="text-dark">- Git Version Control </h4>
+                        
+                    </div>
                 </div>
 
                 <hr className="my-4 border border-primary border-2"/>

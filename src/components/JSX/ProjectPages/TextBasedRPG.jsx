@@ -36,19 +36,21 @@ function TextBased( {setPage} ) {
                         <hr className="my-4 border border-primary border-2"/>
 
                         <p className="text-dark">
-                            FoodStop is your one stop shop for finding recipes that suit your needs. 
-                            Whether you need to search based on dietary restrictions or different meal 
-                            types, our app has you covered. Before you search, simply select the 
-                            preferences you need and click search for recipes. Our app, powered by 
-                            spoonacular API's vast recipe database, will find recipes that fit your 
-                            restrictions and give you many selections to choose from. Not sure what you 
-                            are looking for? Try one of our daily suggestions to try something new! If you 
-                            have created an account and find a recipe you really like, feel free to hit the 
-                            favorite button at the top right of the recipe to save it for next time! Your 
-                            favorites are linked to your account for easy access any time you need them! 
-                            Your preferences are saved as well for quick and easy recipe searches! Feel free 
-                            to take a look through the selections and we hope you find a recipe that knocks 
-                            your socks off!
+                            Our goal when developing our Text Based Role Playing Game was to create a game with tons of 
+                            replay-ability allowing you to fully emerse yourself in a medival fantacy world with magic, 
+                            enemies, dragons, and tons of cool areas to find. With 4 different classes to play through, 
+                            tons of NPC's to talk to, places to explore, and at least 40 distinct weapons per class, there 
+                            are tons of things to explore. We also wanted to make the game functional on the most outdated 
+                            machines. For this reason, we have no graphics and the game is entirely playable through the 
+                            terminal. To run the game, all you need to do is have the Java Developer Kit installed on your 
+                            machine and run the GameThread.java file to start your journey. As each playthrough can take 
+                            hours to complete, we also implemented a saving feature to allow you to come back to your playthrough 
+                            when you have the free time to do so! An interesting restriction we placed on ourselves when 
+                            creating the game was to implement all functionality entirely through Java's Class Heirarchy 
+                            system! Though there might have been some easier ways to achieve the things we created in our 
+                            game, this restriction promoted creative problem solving and lead to our full utilization of 
+                            object oriented programming in game development! With all that being said, feel free to jump in 
+                            and begin your journey in the mystical world achieved entirely through code!
                         </p>
                     
                     </div>
@@ -65,44 +67,70 @@ function TextBased( {setPage} ) {
 
                             <div className="col-6">
                                 
-                                <h3 className="text-primary text-start">Backend Functionality</h3>
+                                <h3 className="text-primary text-start">Team Lead and Head of Code Structure Design</h3>
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    I coded the backend functionality including creating and updating 
-                                    the two databases we locally stored. For our database, we used 
-                                    SQLAlchemy to create a User database table to store user emails and 
-                                    passwords and a FavoriteRecipe database table to store favorite 
-                                    recipe details such as recipe id, user_id to link favortes to the user 
-                                    account, title, image, time to cook, and a summary for our favorite 
-                                    recipe page. I purposefully did not include the recipe instructions in 
-                                    accordance with the terms and conditions of spoonacularAPI, requiring 
-                                    a new search if the user wants to view a favorite recipe. The backend 
-                                    also handles queries to spoonacular to retrieve recipes based on search 
-                                    preferences, user authentication, and page changes using flask's render 
-                                    template.
+                                    As the Team Lead, I was responsible for coordinating and leading group meetings. 
+                                    In this role, I used a whiteboard to coordinate and design the code structure of 
+                                    the class heirarchy system with input from the team. Along with code structure, I 
+                                    also lead the design of the storyline structure of our game, indicating branches 
+                                    in storyline and where storylines would reconverge to progress with a semilinear 
+                                    storyline with slight deviations depending on class path.
                                 </p>
 
-                                <h3 className="text-primary text-start">Front-End JavaScript Functionality</h3>
+                                <h3 className="text-primary text-start">Creation and Implementation of Class Heirarchies</h3>
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    I also handled the JavaScript functionality using JQuery that dynamically loads different 
-                                    parts of our page, such as the catagory selection and diet selection buttons, 
-                                    daily suggestions, user favorites, groupmate information, home page preference 
-                                    selections, login page updates, preference selection page updates, recipe responses 
-                                    from search queries, and detailed recipe information for a selected recipe.
+                                    As the owner of the GitHub Repository, I created and implemented the 13 separate 
+                                    game feature classes discussed in our meetings including their parent classes for shared 
+                                    characteristics. This involved implementing their variables and constructors as well 
+                                    as their class relationships.
                                 </p>
 
-                                <h3 className="text-primary text-start">Front-End Styling</h3>
+                                <h3 className="text-primary text-start">All Aspects of the Mage Class</h3>
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    I also handled the styling and functionality of 9 of the 11 pages seen in 
-                                    our frontend. They were styled using bootstrap and minor css styling for effects 
-                                    not possible with simply bootstrap styling.
+                                    As a 4 person group, each group member took responsiblity for developing one of the 
+                                    4 playable classes. My selected class was the mage class. Development of this class 
+                                    involved creating the tutorial, a special mage-specific mission (which served as 
+                                    chapter 3 of our game), implementation of a mana system for battles fought with a 
+                                    mage weapon, and creation of 40 different magic weapons, each with accompanying 
+                                    special attacks.
                                 </p>
 
+                                <h3 className="text-primary text-start">Game Thread Functionality Mage Class Storyline, and Final Mission</h3>
+                                <hr className="my-4 border border-primary border-2"/>
+
+                                <p className="text-dark">
+                                    I was responsible for the inital setup of the Gamethread, indicating how the GameThread 
+                                    file would run the individual choices the player makes. Along with this, the major contribution 
+                                    I made to the GameThread file was the development of the mage class, the mage tutorial, and 
+                                    the final mission given to all players which served as chapter 4. 
+                                </p>
+
+                                <h3 className="text-primary text-start">Shop and Battle Functionality</h3>
+                                <hr className="my-4 border border-primary border-2"/>
+
+                                <p className="text-dark">
+                                    I also developed all of the shop functionality and battle functionality. The shop functionality 
+                                    was present in the hub at each stage of the game whereas the battle functionality was present in 
+                                    all phases of the game, both in storyline and in hub areas. The battle functionality was particularly 
+                                    interesting as I implemented the use of consumables, weapons, special attacks (which had a chance 
+                                    to miss or do extra damage), and guarding which reduced damage taken for 3 turns in a battle.
+                                </p>
+
+                                <h3 className="text-primary text-start">Development of Consumables</h3>
+                                <hr className="my-4 border border-primary border-2"/>
+
+                                <p className="text-dark">
+                                    I also developed 5 different consumables (14 if you consider chapter variants 
+                                    of potions) which were also implemented into the battle class to allow for health 
+                                    recovery, mana recovery, damage over time through poison, speed boosts allowing for 
+                                    two attack turns in a row, and damage boosts increasing your attack damage for a turn.
+                                </p>
                                 
                             </div>
 
@@ -111,42 +139,36 @@ function TextBased( {setPage} ) {
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    -<strong>ApiInfoPage.html:</strong> <em>Displayed API information.</em> <br />
-                                    -<strong>Favorites.html:</strong> <em>Displayed user favorites.</em><br />
-                                    -<strong>FoodCatPage.html:</strong> <em>Displayed category options.</em><br />
-                                    -<strong>FoodDietPage.html:</strong> <em>Displayed diet options.</em><br />
-                                    -<strong>GroupmatePage.html:</strong> <em>Displayed groupmate information.</em><br />
-                                    -<strong>HomePage.html:</strong> <em>Displayed home page.</em><br />
-                                    -<strong>LoginPage.html:</strong> <em>Displayed login screen.</em><br />
-                                    -<strong>RecipeSelect.html:</strong> <em>Displayed recipe options.</em><br />
-                                    -<strong>MotivationPage.html:</strong> <em>Displayed our motivation for working on the project.</em><br />
-                                    -<strong>CatSelect.js:</strong> <em>Dynamically filled category options page.</em><br />
-                                    -<strong>DietSelect.js:</strong> <em>Dynamically filled diet option page.</em><br />
-                                    -<strong>Favorites.js:</strong> <em>Dynamically filled user favorites.</em><br />
-                                    -<strong>GroupmatePage.js:</strong> <em>Dynamically filled  groupmate information.</em><br />
-                                    -<strong>HomePage.js:</strong> <em>Dynamically filled category and diet selection options.</em><br />
-                                    -<strong>LoginPage.js:</strong> <em>Changed page state for login functionality.</em><br />
-                                    -<strong>preferenceSelect.js:</strong> <em>Dynamically filled category and diet option selection.</em><br />
-                                    -<strong>RecipeDetailed.js:</strong> <em>Dynamically filled recipe information.</em><br />
-                                    -<strong>RecipeSelect.js:</strong> <em>Dynamically filled recipe options from search.</em><br />
-                                    -<strong>DailySuggestions.js:</strong> <em>Dynamically filled daily suggestions</em><br />
-                                    -<strong>app.py:</strong> <em>Registered blueprints and handled flask render template changes.</em><br />
-                                    -<strong>auth.py:</strong> <em>Handled user registration and authentication.</em><br />
-                                    -<strong>BackendUtils.py:</strong> <em>Stored api keys and spoonacular urls.</em><br />
-                                    -<strong>favoritedRecipes.py:</strong> <em>Handled reading and writing to the user favorites database.</em><br />
-                                    -<strong>models.py:</strong> <em>Stored our 2 database table templates.</em><br />
-                                    -<strong>preferences.py:</strong> <em>Handled preference selection tied to user account or through cookies.</em><br />
-                                    -<strong>SpoonacularRequest.py:</strong> <em>Made requests to spoonacular API.</em><br />
-                                    -<strong>CatDietSelect.css:</strong> <em>Styles Category and Diet Pages.</em><br />
-                                    -<strong>General.css:</strong> <em>General Styles.</em><br />
-                                    -<strong>HomePage.css:</strong> <em>Styles the home page.</em><br />
-                                    -<strong>LoginPage.css:</strong> <em>Styles the login page.</em><br />
-                                    -<strong>MotivationPage.css:</strong> <em>Styles the motivation page.</em><br />
-                                    -<strong>preferenceSelect.css:</strong> <em>Styles the preference selection page.</em><br />
-                                    -<strong>RecipeDetailed.css:</strong> <em>Styles the recipe info page.</em><br />
-                                    -<strong>RecipeSelect.css:</strong> <em>Styles the recipe selection page.</em><br />
-                                    -<strong>TopAndBottom.css:</strong> <em>Styles the header and footer attached to each page.</em><br />
+                                    -<strong>Battle.java:</strong> <em>Handled battle functionality with special functionality for the final boss</em> <br />
+                                    -<strong>Consumable.java:</strong> <em>Handled consumable information.</em><br />
+                                    -<strong>Enemy.java:</strong> <em>Handled enemy information.</em><br />
+                                    -<strong>GameChar.java:</strong> <em>Parent object handling game character information.</em><br />
+                                    -<strong>GameThread.java:</strong> <em>Handled running the game. I specifically contributed the mage storyline and final mission</em><br />
+                                    -<strong>Inventory.java:</strong> <em>Handled inventory information containing weapons and consumables.</em><br />
+                                    -<strong>Item.java:</strong> <em>Parent object to store common item information.</em><br />
+                                    -<strong>Lootable.java:</strong> <em>Parent object to store objects that were lootable.</em><br />
+                                    -<strong>Luck.java:</strong> <em>Handled luck calculation for special attacks.</em><br />
+                                    -<strong>NPC.java:</strong> <em>Parent object for NPCs to hold dialogue.</em><br />
+                                    -<strong>Player.java:</strong> <em>Handled player information.</em><br />
+                                    -<strong>Shop.java:</strong> <em>Handled shop functionality.</em><br />
+                                    -<strong>ShopKeeper.java:</strong> <em>Handled shopkeeper specific information.</em><br />
+                                    -<strong>SpecialAttack.java:</strong> <em>Handled special attacks for weapons.</em><br />
+                                    -<strong>Weapon.java:</strong> <em>Handled weapon information.</em><br />
+                                    -<strong>ConsumableList.java:</strong> <em>Index of available consumables.</em><br />
+                                    -<strong>EnemyList.java:</strong> <em>Index of enemies. I specifically contributed mage and final mission enemies.</em><br />
+                                    -<strong>SpAtkList.java:</strong> <em>Index of special attacks. I specifically contributed mage weapon, enemy, and final mission enemy special attacks.</em><br />
+                                    -<strong>WeaponList.java:</strong> <em>Index of weapons. I specifically handled mage weapons.</em><br />
                                 </p>
+
+                                <div class="float-end me-3 w-100">
+                                    <img class="w-100 h-auto rounded ms-3 mb-3" 
+                                        src="src/assets/images/TextBasedRPG_Graph.png" 
+                                        alt="Text-Based RPG Class Heirarchy Graph" />
+                                    <p class="mt-1 text-center text-secondary">
+                                        <em>*Text Based RPG Class Heirarchy Graph and Interactions*</em>
+                                    </p>
+                                </div>
+
                             </div>
 
                                 
@@ -162,70 +184,45 @@ function TextBased( {setPage} ) {
                     
                     <div className="col-11 offset-1">
                         
-                        <h3 className="text-primary text-start">Bootstrap Web Development</h3>
+                        <h3 className="text-primary text-start">Object Oriented Programming</h3>
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            For our Foodstop project, we used bootstrap for the majority of our page 
-                            styling. Through our 11 different pages, we wrote most of the styling using 
-                            bootstraps class name system, only using CSS styles when required for specific 
-                            styling details, background images, and animation/hover effects. 
+                            Since our project was entirely coded through object oriented programming, through 
+                            development, I got very comfortable with object oriented programming and class 
+                            interactions between parent and child classes. This was necessary to develop 
+                            our fully functional game utilizing classes to avoid repeated code and data.
                         </p>
 
-                        <h3 className="text-primary text-start">JQuery Scripting</h3>
+                        <h3 className="text-primary text-start">Java Class Heirarchies</h3>
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            In development of Foodstop, we also used JQuery for all of our webpage 
-                            scripting. Jquery was used in all 10 of our javascript files to dynamically 
-                            fill information on our webpage such as Spoonacular API responeses and 
-                            react to user interaction throughout our webpage.
+                            Expanding on object oriented programming, as this project was developed completely 
+                            using Java classes, I became very firmiliar specifically with how Java's classes work 
+                            and how different classes interact in the Java coding language.
                         </p>
                     
-                        <h3 className="text-primary text-start">Flask Web Development</h3>
+                        <h3 className="text-primary text-start">Team Leadership</h3>
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            For backend functionality, Foodstop uses Flask. In development, I gained 
-                            crucial skills using blueprints, flask-bcrypt for user authentication, Jinja2 
-                            templates, sessions, routing, and RESTful JSON responses.
-                        </p>
-
-                        <h3 className="text-primary text-start">SQL Databases Through SQLAlchemy</h3>
-                        <hr className="my-4 border border-primary border-2"/>
-                        
-                        <p className="text-dark">
-                            A lot of our data for recipes was retireved through Spoonacular API's public 
-                            database of recipes but we used SQLAlchemy to create a database for storing 
-                            user data and favorite recipes. This involved creating 2 database tables, one 
-                            for user data (our "User" table) and another for favorite recipe data (our "FavoriteRecipe" 
-                            table). Our User table stored a unique email, hashed password, and optional diet 
-                            and category details for saving user preferences. Our FavoriteRecipe table stored 
-                            basic information about the the favorited recipe such as title, image url, cooking 
-                            time, and summary as well as the id of the recipe and the user_id serving as a foreign 
-                            key to the User. We did not save recipe details in accordance with spoonacular's 
-                            terms of service, requiring a separate search query to access the recipe instructions. 
-                        </p>
-
-                        <h3 className="text-primary text-start">User Authentication Using Flask_Bcrypt</h3>
-                        <hr className="my-4 border border-primary border-2"/>
-                        
-                        <p className="text-dark">
-                            For our user accounts, I learned key information on user authentication systems, learing 
-                            about hashing passwords for security from database leaks. If I had more time working on 
-                            Foodstop, I would have liked to implement a salting system for password protection to ensure 
-                            password hashes don't result in the same hash for the same password. 
+                            For this project, I served as team lead by coordinating meetings, setting deadlines, 
+                            managing our repository, leading group discussion, doing a large portion of the architecture 
+                            design (with a lot of group collaboration and input from my team), and ensuring a polished 
+                            final product.
                         </p>
 
                         <h3 className="text-primary text-start">Git Version Control</h3>
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            Throughout development on FoodStop, our team used Git and Github for version control for 
-                            streamlined workflow. Prior to this project, I had used Git on multiple occasions so it wasn't 
-                            necessarily new to me but development on FoodStop further increased my experience using Git 
-                            for version control.
+                            This was my first large project using GitHub and Git version control and as such was a 
+                            major learning experience for me on how to manage branches, merge, push, and pull with 
+                            updated changes from my groupmates. I would continue on to hone my skills in this area 
+                            on future projects but this was my introduction. 
                         </p>
+
 
                     </div>
 
