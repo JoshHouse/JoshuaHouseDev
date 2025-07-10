@@ -256,6 +256,23 @@ function MyProjects( {setPage} ) {
 
                 </div>
 
+                <div className="row my-2">
+                    <div className="col-12">
+                        <h2 className="text-primary text-start">Skills Developed</h2>
+                        <hr className="my-4 border border-primary border-2"/>
+                    </div>
+
+                    <div className="col-11 offset-1">
+                        <h4 className="text-dark">- Recursive Ray Tracing Algorithm Implementation </h4>
+                        <h4 className="text-dark">- Implementation of the Phong Illumination Model </h4>
+                        <h4 className="text-dark">- Shadow Ray Implementation </h4>
+                        <h4 className="text-dark">- Recursive Reflection Logic </h4>
+                        <h4 className="text-dark">- Camera Transformation by Applying Gram-Schmidt Orthonormalization </h4>
+                        <h4 className="text-dark">- Python using Numpy and Matplotlib </h4>
+                        
+                    </div>
+                </div>
+
                 <hr className="my-4 border border-primary border-2"/>
 
                 {/* Raster Based Renderer */}
@@ -282,6 +299,21 @@ function MyProjects( {setPage} ) {
 
                     </div>
 
+                </div>
+
+                <div className="row my-2">
+                    <div className="col-12">
+                        <h2 className="text-primary text-start">Skills Developed</h2>
+                        <hr className="my-4 border border-primary border-2"/>
+                    </div>
+
+                    <div className="col-11 offset-1">
+                        <h4 className="text-dark">- Applications of Computational Linear Algebra for Matrix Transformations </h4>
+                        <h4 className="text-dark">- Transformation Matricies to Transition Between Object, World, and Screen Space </h4>
+                        <h4 className="text-dark">- Application of the Clip Test for Screen Rendering </h4>
+                        <h4 className="text-dark">- Python using Pygame and Numpy </h4>
+                        
+                    </div>
                 </div>
 
                 <hr className="my-4 border border-primary border-2"/>

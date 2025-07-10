@@ -34,7 +34,18 @@ function RasterBased( {setPage} ) {
                         <hr className="my-4 border border-primary border-2"/>
 
                         <p className="text-dark">
-                            Description Text
+                            This was a project for my computer graphics course in which we had to 
+                            render a set of points to the screen from a Json file. For this, we needed 
+                            to perform all of the necessary computational linear algebra calculations 
+                            using matrix transformations to convert those points and map them into screen 
+                            space. To do this, we had to apply the object to world and world to camera 
+                            transformation matricies, apply the clip test to ensure that the points were 
+                            in the view frustum of the camera, then apply the camera to screen space 
+                            transformation matrix. This code was run constantly to allow for camera controls 
+                            with WASD for left, right, forward, and backward movement as well as R and F for 
+                            up and down movement. On top of this, to avoid repeated code, I also created 
+                            helper functions in my project to take a set of values to build and transformation, 
+                            rotation, and scale matricies. 
                         </p>
                     
                     </div>
@@ -44,28 +55,58 @@ function RasterBased( {setPage} ) {
                 <div className="row">
 
                     <div className="col-12">
-                        <h2 className="text-primary text-start">My Contributions</h2>
+                        <h2 className="text-primary text-start">What the Project Involved</h2>
                         <hr className="my-4 border border-primary border-2"/>
 
                         <div className="row">
 
                             <div className="col-6">
-                                
-                                <h3 className="text-primary text-start">Contribution</h3>
+
+                                <h3 className="text-primary text-start">Object to World Space Matrix Transformations</h3>
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    Contribution Description
+                                    The car seen in the demo video was a portion of the extra credit assignment where we 
+                                    were given a set of points that represented different portions of the car such as a wheel. 
+                                    These points were centered around the origin of the world so they were considered as 
+                                    being in object space. The object to world transformation involved essentially positioning 
+                                    these points centered around the origin to the place they should be in the world by applying 
+                                    transformation matricies.
+                                </p>
+
+                                <h3 className="text-primary text-start">World to Camera Space Matrix Transformations</h3>
+                                <hr className="my-4 border border-primary border-2"/>
+
+                                <p className="text-dark">
+                                    The world space to camera space transformation involved taking the points that represented 
+                                    the objects in the world and transforming their points from being in reference to the origin 
+                                    of the world to being in reference of the camera's position and viewing angle. This was also 
+                                    done using a set of transformation matricies.
                                 </p>
                                 
                             </div>
 
                             <div className="col-6">
-                                <h3 className="text-primary text-start">Files Written</h3>
+                                <h3 className="text-primary text-start">View Frustum Clip Test</h3>
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    -<strong>File:</strong> <em>File Description</em> <br />
+                                    The view frustum clip test is a way to ensure that what is being rendered to the screen 
+                                    is visible by the camera. This not only takes into account the sides of the view frustum
+                                    but also the near clip and far clip planes (meaning what is too close to the camera to 
+                                    see and what is to far away from the camera to see). For simplicity's sake since this project 
+                                    was closer to the beginning of the course, we did not perform the calculations necessary to 
+                                    render portions of the lines, rather cliping the entire line if one of its points existed 
+                                    outside the camera's view frustum.
+                                </p>
+
+                                <h3 className="text-primary text-start">Camera to Screen Space Matrix Transformations</h3>
+                                <hr className="my-4 border border-primary border-2"/>
+
+                                <p className="text-dark">
+                                    Finally, after ensuring that the lines existed in the view frustum, the transformation 
+                                    matricies were applied to take those lines in relation to the camera and map them to specific 
+                                    pixels on the screen to render the image. 
                                 </p>
 
                             </div>
@@ -83,11 +124,41 @@ function RasterBased( {setPage} ) {
                     
                     <div className="col-11 offset-1">
                         
-                        <h3 className="text-primary text-start">Skill</h3>
+                        <h3 className="text-primary text-start">Application of Computational Linear Algebra for Matrix Transformations</h3>
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            Skill Description
+                            Creating these transitions for proper rendering of these lines to the screen required 
+                            an in-depth understanding of computational linear algebra's concepts and their 
+                            applications specifically regarding vectors and matricies.
+                        </p>
+
+                        <h3 className="text-primary text-start">Transformation Matricies to Transition Between Object, World, and Screen Space</h3>
+                        <hr className="my-4 border border-primary border-2"/>
+                        
+                        <p className="text-dark">
+                            Further diving into the computational linear algebra concepts, working on this project, 
+                            I specifically learned how to interperet and apply transformation, or more thoroughly, 
+                            transformation, rotation, and scalar matricies to transition a given set of points 
+                            into object, world, and camera space.
+                        </p>
+
+                        <h3 className="text-primary text-start">Application of the Clip Test for Screen Rendering</h3>
+                        <hr className="my-4 border border-primary border-2"/>
+                        
+                        <p className="text-dark">
+                            I also learned how to apply the clip test to determine whether a given point existed 
+                            within the view frustum of the camera to avoid attempting to render objects outside of 
+                            the camera's view frustum to the screen.
+                        </p>
+
+                        <h3 className="text-primary text-start">Python using Pygame and Numpy</h3>
+                        <hr className="my-4 border border-primary border-2"/>
+                        
+                        <p className="text-dark">
+                            This project was created using python as the coding language, Pygame to generate the 
+                            image rendered by my program, and Numpy for its useful data types for storing and using 
+                            vectors and matricies.
                         </p>
 
                     </div>
