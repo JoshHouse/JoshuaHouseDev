@@ -40,18 +40,18 @@ function Dummy2048( {setPage} ) {
 
                         <p className="text-dark">
                             For my group's game, Velocity Trials, we were told that all assets for our 
-                            game needed to be royalty free. As I was in a computer graphics course, I 
-                            thought what better way to obtain a royalty free player model and animations 
-                            than to make them myself. Using blender, I modeled our player and then went 
-                            through the process of rigging our character and making 17 different animations 
+                            game needed to be royalty-free. As I was in a computer graphics course, I 
+                            thought what better way to obtain a royalty-free player model and animations 
+                            than to make them myself. Using Blender, I modeled our player and then went 
+                            through the process of rigging our character and making <strong>17 different animations </strong>
                             to represent the different actions available to the player. The benefit of this 
                             was that it also served as my final project for my computer graphics course where 
                             we had to expand on a topic learned in that course. We were taught the basics of 
-                            modeling in blender but rigging and animation for this project was entirely self 
-                            taught. Though the animations were rough around the edges, ultimately I was proud 
-                            of what I was able to create in the couple weeks that I worked on the project and 
-                            I learned pleanty of knowledge about how models and animations work both in blender 
-                            and when transfered to unity!
+                            modeling in Blender but <strong>rigging and animation</strong> for this project were entirely <strong>self-taught</strong>. 
+                            Though the animations were rough around the edges, ultimately I was proud 
+                            of what I was able to create in the couple of weeks that I worked on the project and 
+                            I learned plenty of knowledge about how models and animations work both in Blender 
+                            and when transferred to Unity!
                         </p>
                     
                     </div>
@@ -72,9 +72,9 @@ function Dummy2048( {setPage} ) {
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    The player model for our game was completely hand crafted using the modeling 
+                                    The <strong>player model</strong> for our game was completely <strong>handcrafted</strong> using the modeling 
                                     techniques learned from my computer graphics course. The textures were gathered 
-                                    from blenderkit to get the yellow and black color scheme. Although rather basic, 
+                                    from <strong>BlenderKit</strong> to get the yellow and black color scheme. Although rather basic, 
                                     the main goal of the project was to create animations to expand on the topics taught 
                                     in class so I only spent a few hours working on the modeling side of the model.
                                 </p>
@@ -82,7 +82,7 @@ function Dummy2048( {setPage} ) {
                                 <div class="float-end me-3 w-100">
                                     <img 
                                         class="d-block mx-auto rounded mb-3" 
-                                        style={{ maxHeight: '500px' }} 
+                                        style={{ maxHeight: '500px', maxWidth: '244px'}} 
                                         src="src/assets/images/Dummy2048PlayerModel.png" 
                                         alt="Dummy2048 Player Model" />
                                     <p class="mt-1 text-center text-secondary">
@@ -99,25 +99,25 @@ function Dummy2048( {setPage} ) {
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    For this project, through verious youtube tutorials, I taught myself how to rig 
-                                    my model with bones and create key frames for my models animations. This involved 
-                                    a heafty amount of UV painting to ensure bones moved the correct parts of the model 
-                                    and tweaking key frames and transition speeds to get the look I wanted. Naturally, 
+                                    For this project, through various <strong>YouTube tutorials</strong>, I <strong>taught myself</strong> how to <strong>rig 
+                                    my model</strong> with <strong>bones</strong> and <strong>create key frames</strong> for my model's animations. This involved 
+                                    a hefty amount of <strong>UV painting</strong> to ensure bones moved the correct parts of the model 
+                                    and tweaking key frames and <strong>transition speeds</strong> to get the look I wanted. Naturally, 
                                     creating the model and animations also gave me experience with exporting, importing, 
-                                    and playing my model's animations in unity. Although modeling and animation may not 
-                                    be my expertiese, I feel as though that experience will help better understand how 
-                                    other teams implement game art if I end up in a game development position.
+                                    and playing my model's animations in Unity. Although modeling and animation may not 
+                                    be my expertise, I feel as though that experience <strong>will help me better understand</strong> how 
+                                    <strong> other teams implement game art</strong> if I end up <strong>in a game development position</strong>.
                                 </p>
 
                                 <h3 className="text-primary text-start">Importing and Playing Animations in Unity</h3>
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    To get the custom made model and animations into our game, naturally, I had to learn 
-                                    how to export the model with its animations from blender, import them into Unity, and 
-                                    play the animations at the correct time. Due to the stress of finals, unfortunately 
+                                    To get the custom-made model and animations into our game, naturally, I had to learn 
+                                    how to <strong>export the model with its animations</strong> from Blender, <strong>import them into Unity</strong>, and 
+                                    <strong> play the animations</strong> at the correct time. Due to the stress of finals, unfortunately 
                                     I didn't have the time to go as into depth with this as I would have liked to, resorting 
-                                    to creating a script with functions that I could call to play each animation manually 
+                                    to <strong>creating a script with functions</strong> that I could call <strong>to play each animation</strong> manually 
                                     through code, I still gained some experience with how game assets are imported and used 
                                     in development of a game!
                                 </p>
@@ -145,13 +145,13 @@ function Dummy2048( {setPage} ) {
                     
                     <div className="col-11 offset-1">
                         
-                        <h3 className="text-primary text-start">Modeling using Blender</h3>
+                        <h3 className="text-primary text-start">Modeling in Blender</h3>
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            Creating our player model definitely helped develop my skills at creating 
-                            simple models in blender. Though I may not be a pro, I can definitely create 
-                            something passable until someone else far more skilled than me comes along.
+                            Creating our player model definitely helped develop my skills at <strong>creating 
+                            simple models</strong> in Blender. Though I may not be a pro, I can definitely create 
+                            something passable until someone else far more skilled than I comes along.
                         </p>
 
                         <h3 className="text-primary text-start">Rigging in Blender</h3>
@@ -159,7 +159,7 @@ function Dummy2048( {setPage} ) {
                         
                         <p className="text-dark">
                             Rigging our player model was a large portion of this project which taught me 
-                            a lot about how UV painting and model bone structures work in preparing a model 
+                            a lot about how <strong>UV painting and model bone structures</strong> work in preparing a model 
                             for animations.
                         </p>
 
@@ -167,9 +167,9 @@ function Dummy2048( {setPage} ) {
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            Creating all 17 of our model animations in blender taught me a lot about key frames 
-                            and time scales for key frame transitions. Creating these animations took a significant 
-                            amount of time and throughout the process I definitely gained a lot of experience and 
+                            Creating all <strong>17 of our model animations</strong> in Blender <strong>taught me a lot about key frames </strong>
+                            and <strong>time scales for key frame transitions</strong>. Creating these animations took a significant 
+                            amount of time and throughout the process, I definitely gained a lot of experience and 
                             respect for the art and animation side of game development.
                         </p>
 
@@ -178,9 +178,9 @@ function Dummy2048( {setPage} ) {
                         
                         <p className="text-dark">
                             Once all of the animations were created, this project also gave me experience with 
-                            importing and playing animations in game. I will clarify that due to time constraints, 
-                            I didn't get to explore as much as I would have liked to in this area but it was great 
-                            experience for how the visuals are made in games.
+                            <strong> importing</strong> and <strong>playing animations in-game</strong>. I will clarify that due to time constraints, 
+                            I didn't get to explore as much as I would have liked to in this area but it gave me <strong>great 
+                            experience</strong> for how the <strong>visuals are made in games</strong>.
                         </p>
 
                     </div>

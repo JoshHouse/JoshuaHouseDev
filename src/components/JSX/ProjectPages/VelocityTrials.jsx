@@ -43,17 +43,17 @@ function VelocityTrials( {setPage} ) {
                             the role of Dummy2048, a testing dummy for the Si-Tech corporation. 
                             The reason for your creation is to test the enhanced movement 
                             capabilities developed by Si-Tech. You have been armed with the 
-                            capability to slide, double jump, wall run, wall climb, wall jump, 
+                            ability to slide, double jump, wall run, wall climb, wall jump, 
                             mantle over objects, and use two different grapples. One grapple that 
                             you swing with, and another that can pull you to your desired location. 
                             As a testing dummy, your goal is to use your capabilities to reach the 
                             end of 30 different chambers, all while under the watchful eye of the 
                             Overseer. The Overseer is a Si-Tech employee assigned to observe 
                             your progress through each chamber, and they will not hesitate to 
-                            remind you along the way that each dummy created costs invester 
+                            remind you along the way that each dummy created costs investor 
                             dollars, so don't mess up! Once you have completed each level, 
-                            you will have the oportunity to enter the level in "Time Attack" 
-                            mode, allowing you to improve the effeciency of your use of these 
+                            you will have the opportunity to enter the level in "Time Attack" 
+                            mode, allowing you to improve the efficiency of your use of these 
                             movement capabilities and decrease your best time on a given chamber.
                             With that being said, good luck to you Dummy2048, and don't mess it up!
                         </p>
@@ -76,14 +76,14 @@ function VelocityTrials( {setPage} ) {
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    I coded all of the player movement functionality including 
+                                    I <strong>coded all</strong> of the <strong>player movement functionality</strong> including 
                                     standing, crouching, crouch walking, walking, running, 
                                     jumping, double jumping, sliding, mantling, wall running, 
                                     wall climbing, wall jumping, pull grappling, and swing grappling. 
-                                    I also handled all enviornment detection, interactions, and camera 
-                                    handling including slope handling, speed calculation, collision 
+                                    I also handled all environment detection, interactions, and camera 
+                                    handling, slope handling, speed calculation, collision 
                                     detection, collider manipulation, movement ability conditions, camera 
-                                    rotation based on user mouse input, and first person and third person 
+                                    rotation based on user mouse input, and first-person and third-person 
                                     perspective shifts. 
                                 </p>
 
@@ -91,9 +91,9 @@ function VelocityTrials( {setPage} ) {
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    I handled the modeling and animation for our Dummy2048 player 
-                                    model using Blender. This involved creating 17 different custom 
-                                    animations using Blender's rigging system, importing them to Unity, 
+                                    <strong>I handled the modeling and animation</strong> for our Dummy2048 player 
+                                    model using Blender. This involved <strong>creating 17 different custom 
+                                    animations</strong> using Blender's rigging system, importing them to Unity, 
                                     and creating the AnimationManager.cs script to switch between 
                                     animations during runtime based on the player's movement state. 
                                     This also served as a separate project for my Computer Graphics 
@@ -113,12 +113,12 @@ function VelocityTrials( {setPage} ) {
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    As the creator of the Git repository, I was responsible for the management 
-                                    and upkeep of the collaborative workspace including repository management. (
+                                    As the creator of the Git repository, <strong>I was responsible for</strong> the upkeep 
+                                    of the <strong>collaborative workspace</strong> and <strong>repository management</strong>. (
                                     ie. keeping Unity program files out of the shared repository, rollbacks when 
                                     necessary, and branch management) Since I had previous experience using git, 
-                                    I was present for all meetings invloving merges of branches onto main and 
-                                    often had separate, one-on-one meetings with team members to merge their 
+                                    I was <strong>present for all meetings</strong> involving merges of branches onto main and 
+                                    often had <strong>separate, one-on-one meetings</strong> with team members to merge their 
                                     contributions onto main.
                                 </p>
 
@@ -132,7 +132,7 @@ function VelocityTrials( {setPage} ) {
                                 <p className="text-dark">
                                     -<strong>PlayerMovementManager.cs:</strong> 
                                     <em> Handles movement calculations and detection applicable to 
-                                    both grounded and airborne movement. (ie. speed calculations, 
+                                    both grounded and airborne movement. (ie. Speed calculations, 
                                     ground detection, grappling, etc.)</em><br />
                                     -<strong>GroundedMovementScript.cs:</strong> 
                                     <em> Handles calculations and detection specific to grounded 
@@ -161,7 +161,7 @@ function VelocityTrials( {setPage} ) {
                                     -<strong>GrapplingScript.cs:</strong> 
                                     <em> Handles both swing and pull grapple movement application and 
                                     grapple conditions. Handles internal grapple counter, force application 
-                                    physics calculation for arched movement for pull grappling, and springjoint 
+                                    physics calculation for arched movement for pull grappling, and spring joint 
                                     attachment for swing grappling.</em><br />
                                     -<strong>CameraHolder.cs:</strong> 
                                     <em> Handles camera position.</em> <br />
@@ -194,12 +194,12 @@ function VelocityTrials( {setPage} ) {
                         <p className="text-dark">
                             Velocity Trials was developed using the Unity game engine version 
                             2022.3.42f1. While developing this project, I gained a lot of experience 
-                            using game development engines to create 3D enviornments and handling 
-                            interactions between in-game elements. I also gained a lot of experience 
-                            with raycast systems to not only detect objects but also perform angle 
+                            using <strong>game development engines</strong> to create <strong>3D environments</strong> and 
+                            <strong> handling interactions</strong> between in-game elements. I also gained a lot of experience 
+                            with <strong></strong>raycast systems to not only detect objects but also perform angle 
                             calculations based on player orientation against the face of the object 
-                            the raycast hit. Development of Velocity Trials also gave me an in depth 
-                            understanding of Unity's physics system and encorporation of rigidbodies 
+                            the raycast hit. Development of Velocity Trials also gave me an in-depth 
+                            <strong> understanding of Unity's physics system</strong> and incorporation of rigidbodies 
                             to in-game objects and characters.
                         </p>
 
@@ -209,8 +209,9 @@ function VelocityTrials( {setPage} ) {
                         <p className="text-dark">
                             Since Unity uses C# as it's primary scripting language, through 
                             the development of the 11 scripts I personally wrote spanning 
-                            roughly 1800 lines of code, I gained a firmiliarity with the 
-                            C# language and I would consider myself comfortable with development 
+                            <strong> roughly 1800 lines</strong> of code, I gained 
+                            <strong> firmiliarity with the C# language </strong>
+                            and I would consider myself comfortable with development 
                             in C# after this project.
                         </p>
                     
@@ -219,12 +220,12 @@ function VelocityTrials( {setPage} ) {
                         
                         <p className="text-dark">
                             Throughout the course of the semester, our group used Git & GitHub 
-                            as our form of version control. I have since began studying Unity's 
+                            as our form of version control. I have since begun studying Unity's 
                             integrated version control which has benefits over Git during development 
                             of Unity projects but the challenges the use of Git brought during 
-                            the development of Velocity Trials forced me to learn how to manage 
-                            and separate Unity program files and project files while maintaining 
-                            asset files required for collaborative development.
+                            the development of Velocity Trials forced me to learn how to <strong>manage 
+                            and separate Unity program files and project files </strong> 
+                            while <strong>maintaining asset files</strong> required for collaborative development.
                         </p>
 
                         <h3 className="text-primary text-start">Vector and Physics Application in 3D Enviornments</h3>
@@ -232,15 +233,15 @@ function VelocityTrials( {setPage} ) {
                         
                         <p className="text-dark">
                             Development of the advanced movement capabilities that Dummy2048 had 
-                            access to in Velocity Trials required an in-depth knowledge of computational 
-                            linear algebra and a fair amount of applications of physics in these 
+                            access to in Velocity Trials required an <strong>in-depth knowledge of computational 
+                            linear algebra</strong> and a fair amount of <strong>applications of physics</strong> in these 
                             3D environments to achieve the desired effect we were striving for. A few 
-                            examples of these applications would be slope calculation (applying force 
+                            examples of these applications would be <strong>slope calculation</strong> (applying force 
                             to the player up the slope rather than into the slope to maintain a constant 
-                            speed), force required for travel in an arch (used in the pull grapple, the 
+                            speed), <strong>force required for travel in an arch</strong> (used in the pull grapple, the 
                             player's movement is locked and the specific amount of force required to send 
                             the player in an arch to their grapple point is added to their rigid-body), 
-                            and wall angle detection for wall running and wall climbing (calculating the 
+                            and <strong>wall angle detection</strong> for wall running and wall climbing (calculating the 
                             angle the player is looking against the wall face to detect whether they are 
                             inputting a wall climb or wall run and detecting the forward direction of the 
                             wall against the players look direction for wall run implementation).
@@ -254,10 +255,10 @@ function VelocityTrials( {setPage} ) {
                             in a semester without the collaboration and dedication of my groupmates. With 
                             many of my other projects, due to the unfortunate nature of group projects, I 
                             was often left to do the majority of the work. Thankfully, with Velocity Trials, 
-                            I had a few groupmates that were just as dedicated to creating the ambitious 
+                            I had a few groupmates who were just as dedicated to creating the ambitious 
                             project Velocity Trials was. Due to this change of pace however, I was introduced 
-                            to the real-time application of group collaboration and team dynamics by strategically 
-                            separating the workload accounting for each member's strengths and weaknesses and 
+                            to the real-time application of <strong>group collaboration and team dynamics</strong> by strategically 
+                            separating the workload <strong>accounting for each member's strengths and weaknesses</strong>, and 
                             allowing each group member to produce their best work developing something they 
                             were best at.
                         </p>

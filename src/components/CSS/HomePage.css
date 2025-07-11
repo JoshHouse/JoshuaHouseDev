@@ -21,6 +21,17 @@
     background-size: contain;
 }
 
+#my-projects {
+    background-image: url("../../assets/images/text-based-RPG-block.png");
+    background-size: cover;
+    background-position: left;
+}
+
+#history {
+    background-image: url("../../assets/images/KarenGraduation.png");
+    background-size: cover;
+}
+
 #home-page-container {
     min-height: 100vh;
 }

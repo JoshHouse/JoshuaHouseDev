@@ -129,10 +129,10 @@ function MyProjects( {setPage} ) {
                     </div>
 
                     <div className="col-11 offset-1">
-                        <h4 className="text-dark">- Bootstrap Web Development </h4>
+                        <h4 className="text-dark">- Bootstrap Page Styling </h4>
                         <h4 className="text-dark">- JQuery Scripting </h4>
                         <h4 className="text-dark">- Flask Web Development </h4>
-                        <h4 className="text-dark">- SQL Databases Through SQLAlchemy </h4>
+                        <h4 className="text-dark">- SQLAlchemy for SQL Databases </h4>
                         <h4 className="text-dark">- User Authentication Using Flask_Bcrypt </h4>
                         <h4 className="text-dark">- Git Version Control </h4>
                         
@@ -174,11 +174,11 @@ function MyProjects( {setPage} ) {
                     </div>
 
                     <div className="col-11 offset-1">
-                        <h4 className="text-dark">- Project Documentation through Confluence </h4>
-                        <h4 className="text-dark">- Development Progress Tracking using Jira </h4>
+                        <h4 className="text-dark">- Confluence Project Documentation</h4>
+                        <h4 className="text-dark">- Jira for Development Progress Tracking </h4>
                         <h4 className="text-dark">- React Web Development </h4>
-                        <h4 className="text-dark">- Python Web Development using Flask </h4>
-                        <h4 className="text-dark">- Constructing an API using processes </h4>
+                        <h4 className="text-dark">- Flask + Python Web Development  </h4>
+                        <h4 className="text-dark">- API Construction using Processes </h4>
                         <h4 className="text-dark">- Team Leadership and Management </h4>
                         <h4 className="text-dark">- Git Version Control </h4>
                         
@@ -220,7 +220,7 @@ function MyProjects( {setPage} ) {
                     </div>
 
                     <div className="col-11 offset-1">
-                        <h4 className="text-dark">- Modeling using Blender </h4>
+                        <h4 className="text-dark">- Modeling in Blender </h4>
                         <h4 className="text-dark">- Rigging in Blender </h4>
                         <h4 className="text-dark">- Animations in Blender </h4>
                         <h4 className="text-dark">- Importing and Playing Animations in Unity </h4>
@@ -264,10 +264,10 @@ function MyProjects( {setPage} ) {
 
                     <div className="col-11 offset-1">
                         <h4 className="text-dark">- Recursive Ray Tracing Algorithm Implementation </h4>
-                        <h4 className="text-dark">- Implementation of the Phong Illumination Model </h4>
+                        <h4 className="text-dark">- Phong Illumination Model Implementation </h4>
                         <h4 className="text-dark">- Shadow Ray Implementation </h4>
                         <h4 className="text-dark">- Recursive Reflection Logic </h4>
-                        <h4 className="text-dark">- Camera Transformation by Applying Gram-Schmidt Orthonormalization </h4>
+                        <h4 className="text-dark">- Gram-Schmidt Orthonormalization for Camera Transformations </h4>
                         <h4 className="text-dark">- Python using Numpy and Matplotlib </h4>
                         
                     </div>
@@ -308,9 +308,9 @@ function MyProjects( {setPage} ) {
                     </div>
 
                     <div className="col-11 offset-1">
-                        <h4 className="text-dark">- Applications of Computational Linear Algebra for Matrix Transformations </h4>
-                        <h4 className="text-dark">- Transformation Matricies to Transition Between Object, World, and Screen Space </h4>
-                        <h4 className="text-dark">- Application of the Clip Test for Screen Rendering </h4>
+                        <h4 className="text-dark">- Computational Linear Algebra Applications for Affine Transformation Matrices </h4>
+                        <h4 className="text-dark">- Affine Transformation Matrices to Transition Between Object, World, and Screen Space </h4>
+                        <h4 className="text-dark">- Clip Test Application for Screen Rendering </h4>
                         <h4 className="text-dark">- Python using Pygame and Numpy </h4>
                         
                     </div>
@@ -352,7 +352,7 @@ function MyProjects( {setPage} ) {
 
                     <div className="col-11 offset-1">
                         <h4 className="text-dark">- Object Oriented Programming </h4>
-                        <h4 className="text-dark">- Java Class Heirarchies </h4>
+                        <h4 className="text-dark">- Java Class Hierarchies </h4>
                         <h4 className="text-dark">- Team Leadership </h4>
                         <h4 className="text-dark">- Git Version Control </h4>
                         

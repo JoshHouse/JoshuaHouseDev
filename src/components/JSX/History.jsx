@@ -152,7 +152,7 @@ function History( {setPage} ) {
                         </h5>
                         
                         <p className="text-dark">
-                            - Was aplauded by managers upon departing, stating <em>"If all 
+                            - Was applauded by managers upon departing, stating <em>"If all 
                             Walmart employees worked as hard as you did, we wouldn't 
                             have any issues."</em>
                         </p>
@@ -210,7 +210,7 @@ function History( {setPage} ) {
                         </h5>
                         
                         <p className="text-dark">
-                            - Commended by numerous customers about the quality and 
+                            - Commended by numerous customers for the quality and 
                             friendliness of customer service
                         </p>
 
@@ -285,7 +285,7 @@ function History( {setPage} ) {
                         </h5>
 
                         <p className="text-dark">
-                            - <strong>Velocity Trials:</strong> A momentum based parkour videogame 
+                            - <strong>Velocity Trials:</strong> A momentum-based parkour videogame 
                             developed with my Computer Game Development II group. For this game, 
                             I developed all of the movement code (resulting in around 1800 lines 
                             of movement code) including walking, running, crouching, sliding, wall 
@@ -297,26 +297,26 @@ function History( {setPage} ) {
                             - <strong>Dummy 2048 player model:</strong> This project served as my 
                             final project for Computer Graphics. For this, I created a player model 
                             and 17 custom animations for my Computer Game Development II final project 
-                            using blender. For this, I had to do research outside of class to learn about 
-                            blender's rigging system and animation techniques. <br />
+                            using Blender. For this, I had to do research outside of class to learn about 
+                            Blender's rigging system and animation techniques. <br />
                             <br />
                             - <strong>Weather Group Joseph - Weather Dashboard:</strong> This was our 
                             semester-long Software Engineering project in which we coded a webpage using 
-                            react and flask to create an interactive weather dashboard. For this project, 
+                            React and Flask to create an interactive weather dashboard. For this project, 
                             I created our backend directory to host multiple endpoints called by our 
                             frontend directory to make calls to Open Weather's API for current weather 
                             statistics. I also developed all of the frontend design ensuring a polished 
-                            final product. I was also responsible for management of the Confluence and 
+                            final product. I was also responsible for the management of the Confluence and 
                             Jira pages for weekly updates to our professor on the progress we made during 
-                            development and I lead our weekly presentations of the progress we made during 
+                            development and I led our weekly presentations of the progress we made during 
                             the previous week. In the end, our product supported geolocation tracking, 
-                            location searching, 5 day and 7 day weather forecasts, and an interactive map 
+                            location searching, 5-day and 7-day weather forecasts, and an interactive map 
                             for location searching supported by Google's Maps API. <br />
                             <br />
                             - <strong>FoodStop:</strong> This was a recipe browser my group created for our 
                             Web Applications course supported by Spoonacular's API. This project was created 
-                            using React, Bootstrap, JQuery, and SQLAlchemy. I developed the backend directory 
-                            which both made calls to Spoonacular APIs recipe databases as well as supported 
+                            using React, Bootstrap, jQuery, and SQLAlchemy. I developed the backend directory 
+                            which made calls to Spoonacular API's recipe databases as well as supported 
                             our user authentication system. I also developed 9 of our 11 frontend pages and 
                             implemented the functionality to allow searching for recipes. Developing the backend, 
                             I also implemented the ability to store user accounts in our database, allowing users 
@@ -390,15 +390,15 @@ function History( {setPage} ) {
                             - <strong>Text-Based RPG:</strong> This was a project I developed with 
                             my group for our Software Engineering II course in which we created a 
                             text-based role playing game entirely through Java's class heirarchy 
-                            system and object oriented programming. The main idea for this project 
-                            was to use no other outside sources to create a game entirely playable 
+                            system and object-oriented programming. The main idea for this project 
+                            was to use no outside sources to create a game entirely playable 
                             through the terminal. Our game, consisting of over 10,000 lines of code, 
-                            was a narritive adventure game with 4 playable classes, each with separate 
-                            storylines, adventures, and weapons, and 4 chapters of a narritive story which 
+                            was a narrative adventure game with 4 playable classes, each with separate 
+                            storylines, adventures, and weapons, and 4 chapters of a narrative story which 
                             provided hours of gameplay for one playthrough. We implemented a battle system, hub 
                             areas, shops, and adventure missions specific to each class. In this project, 
                             I developed the mage class path, the shop functionality, the battle functionality, 
-                            and the final chapter of the game. Though the game might have been more accessable 
+                            and the final chapter of the game. Though the game might have been more accessible 
                             in a window format rather than the terminal, the restriction to strictly Java 
                             classes for all development provided for an interesting challenge when development.
                         </p>
@@ -413,14 +413,14 @@ function History( {setPage} ) {
                             and Complexity, known as one of the hardest courses in East Carolina University's 
                             computer science track by students, I was particularly good at understanding 
                             the abstract concepts taught in this course. We had 4 quizzes in total and after 
-                            recieving a 100 on the first quiz, one of my peers asked if I had a study group. I 
+                            receiving a 100 on the first quiz, one of my peers asked if I had a study group. I 
                             offered to help him, in turn starting a study group. As the semester progressed, 
                             this group slowly grew until 7 of the 40 students in the class (17% of the class) 
-                            were attending my study group. I prepared for these meetings before hand and would 
+                            were attending my study group. I prepared for these meetings beforehand and would 
                             re-teach the concepts to the group in a way that made intuitive sense to me. This 
                             helped many students who were getting 40s on these quizzes and allowed them to 
-                            recieve high As and in multiple cases, 100s. I also recieved complements from 
-                            multiple of these members on my teaching style with some going as far as to say 
+                            recieve high As and in multiple cases, 100s. I also recieved compliments from 
+                            multiple members on my teaching style with some going as far as to say 
                             "I wish you could teach this course. It would make it so much easier." Though this 
                             was not an official tutoring position, it was a great experience to prepare teaching 
                             materials and watch my peers drastically improve and get the grades I knew they were 

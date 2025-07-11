@@ -33,13 +33,13 @@ function FoodStop( {setPage} ) {
                         {/* Intro Section */}
                         <h2 className="text-primary text-start">Description</h2>
                         <hr className="my-4 border border-primary border-2"/>
-
+                        
                         <p className="text-dark">
-                            FoodStop is your one stop shop for finding recipes that suit your needs. 
+                            FoodStop is your one-stop shop for finding recipes that suit your needs. 
                             Whether you need to search based on dietary restrictions or different meal 
                             types, our app has you covered. Before you search, simply select the 
-                            preferences you need and click search for recipes. Our app, powered by 
-                            spoonacular API's vast recipe database, will find recipes that fit your 
+                            preferences you need and click "Search for recipes". Our app, powered by 
+                            <strong> Spoonacular API's</strong> vast recipe database, will find recipes that fit your 
                             restrictions and give you many selections to choose from. Not sure what you 
                             are looking for? Try one of our daily suggestions to try something new! If you 
                             have created an account and find a recipe you really like, feel free to hit the 
@@ -68,27 +68,27 @@ function FoodStop( {setPage} ) {
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    I coded the backend functionality including creating and updating 
-                                    the two databases we locally stored. For our database, we used 
-                                    SQLAlchemy to create a User database table to store user emails and 
-                                    passwords and a FavoriteRecipe database table to store favorite 
+                                    I <strong>coded the backend functionality</strong> including creating and updating 
+                                    the <strong>two databases we locally stored</strong>. For our database, we used 
+                                    <strong> SQLAlchemy</strong> to create a <strong>User database table</strong> to store user emails and 
+                                    passwords and a <strong>FavoriteRecipe database table</strong> to store favorite 
                                     recipe details such as recipe id, user_id to link favortes to the user 
                                     account, title, image, time to cook, and a summary for our favorite 
-                                    recipe page. I purposefully did not include the recipe instructions in 
-                                    accordance with the terms and conditions of spoonacularAPI, requiring 
+                                    recipe page. I purposefully <strong>did not include</strong> the <strong>recipe instructions</strong> in 
+                                    accordance with the <strong>terms and conditions</strong> of <strong>Spoonacular API</strong>, requiring 
                                     a new search if the user wants to view a favorite recipe. The backend 
-                                    also handles queries to spoonacular to retrieve recipes based on search 
-                                    preferences, user authentication, and page changes using flask's render 
-                                    template.
+                                    also handles <strong>queries to Spoonacular</strong> to <strong>retrieve recipes</strong> based on search 
+                                    preferences, user authentication, and page changes using <strong>Flask's 
+                                    render_template.</strong>
                                 </p>
 
                                 <h3 className="text-primary text-start">Front-End JavaScript Functionality</h3>
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    I also handled the JavaScript functionality using JQuery that dynamically loads different 
-                                    parts of our page, such as the catagory selection and diet selection buttons, 
-                                    daily suggestions, user favorites, groupmate information, home page preference 
+                                    I also <strong>handled the JavaScript functionality</strong> using <strong>JQuery </strong> 
+                                    that dynamically loads different parts of our page, such as the catagory selection and diet 
+                                    selection buttons, daily suggestions, user favorites, groupmate information, home page preference 
                                     selections, login page updates, preference selection page updates, recipe responses 
                                     from search queries, and detailed recipe information for a selected recipe.
                                 </p>
@@ -97,9 +97,9 @@ function FoodStop( {setPage} ) {
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    I also handled the styling and functionality of 9 of the 11 pages seen in 
-                                    our frontend. They were styled using bootstrap and minor css styling for effects 
-                                    not possible with simply bootstrap styling.
+                                    I also handled the <strong>styling</strong> and functionality of <strong>9 of the 11 pages</strong> seen in 
+                                    our frontend. They were styled using <strong>Bootstrap and minor CSS styling</strong> for effects 
+                                    not possible with simply Bootstrap styling.
                                 </p>
 
                                 
@@ -161,23 +161,23 @@ function FoodStop( {setPage} ) {
                     
                     <div className="col-11 offset-1">
                         
-                        <h3 className="text-primary text-start">Bootstrap Web Development</h3>
+                        <h3 className="text-primary text-start">Bootstrap Page Styling</h3>
                         <hr className="my-4 border border-primary border-2"/>
                         
-                        <p className="text-dark">
-                            For our Foodstop project, we used bootstrap for the majority of our page 
-                            styling. Through our 11 different pages, we wrote most of the styling using 
-                            bootstraps class name system, only using CSS styles when required for specific 
-                            styling details, background images, and animation/hover effects. 
+                        <p className="text-dark"> 
+                            For our Foodstop project, <strong>we used Bootstrap for the majority</strong> of our page 
+                            styling. Through our <strong>11 different pages</strong>, we wrote <strong>most of the styling</strong> using 
+                            Bootstrap's class name system, only using CSS styles when required for specific 
+                            styling details, <strong>background images</strong>, and <strong>animation/hover effects</strong>. 
                         </p>
 
                         <h3 className="text-primary text-start">JQuery Scripting</h3>
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            In development of Foodstop, we also used JQuery for all of our webpage 
-                            scripting. Jquery was used in all 10 of our javascript files to dynamically 
-                            fill information on our webpage such as Spoonacular API responeses and 
+                            In the development of Foodstop, we also <strong>used jQuery</strong> for <strong>all of our webpage 
+                            scripting.</strong> JQuery was used in <strong>all 10 of our JavaScript files</strong> to dynamically 
+                            fill information on our webpage such as Spoonacular API responses and 
                             react to user interaction throughout our webpage.
                         </p>
                     
@@ -185,34 +185,34 @@ function FoodStop( {setPage} ) {
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            For backend functionality, Foodstop uses Flask. In development, I gained 
-                            crucial skills using blueprints, flask-bcrypt for user authentication, Jinja2 
-                            templates, sessions, routing, and RESTful JSON responses.
+                            For backend functionality, <strong>Foodstop uses Flask</strong>. In development, I gained 
+                            crucial skills using <strong>blueprints</strong>, <strong>Flask-Bcrypt for user authentication</strong>, <strong>Jinja2 
+                            templates</strong>, <strong>sessions</strong>, <strong>routing</strong>, and <strong>RESTful JSON responses</strong>.
                         </p>
 
-                        <h3 className="text-primary text-start">SQL Databases Through SQLAlchemy</h3>
+                        <h3 className="text-primary text-start">SQLAlchemy for SQL Databases</h3>
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            A lot of our data for recipes was retireved through Spoonacular API's public 
-                            database of recipes but we used SQLAlchemy to create a database for storing 
-                            user data and favorite recipes. This involved creating 2 database tables, one 
-                            for user data (our "User" table) and another for favorite recipe data (our "FavoriteRecipe" 
-                            table). Our User table stored a unique email, hashed password, and optional diet 
+                            A lot of our data for recipes was retrieved through <strong>Spoonacular API's public 
+                            database of recipes</strong> but we <strong>used SQLAlchemy</strong> to create a database for <strong>storing 
+                            user data and favorite recipes</strong>. This involved <strong>creating 2 database tables</strong>, one 
+                            for <strong>user data</strong> (our "User" table) and another for <strong>favorite recipe data</strong> (our "FavoriteRecipe" 
+                            table). Our User table stores a unique email, hashed password, and optional diet 
                             and category details for saving user preferences. Our FavoriteRecipe table stored 
-                            basic information about the the favorited recipe such as title, image url, cooking 
-                            time, and summary as well as the id of the recipe and the user_id serving as a foreign 
-                            key to the User. We did not save recipe details in accordance with spoonacular's 
-                            terms of service, requiring a separate search query to access the recipe instructions. 
+                            basic information about the favorite recipe such as title, image url, cooking 
+                            time, and summary as well as the ID of the recipe and the user ID serving as a foreign 
+                            key to the User. We <strong>did not save recipe details</strong> in accordance with <strong>Spoonacular's 
+                            terms of service</strong>, requiring a separate search query to access the recipe instructions. 
                         </p>
 
                         <h3 className="text-primary text-start">User Authentication Using Flask_Bcrypt</h3>
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            For our user accounts, I learned key information on user authentication systems, learing 
-                            about hashing passwords for security from database leaks. If I had more time working on 
-                            Foodstop, I would have liked to implement a salting system for password protection to ensure 
+                            For our user accounts, I learned key information on <strong>user authentication systems</strong>, learning 
+                            about <strong>hashing passwords</strong> for <strong>security from database leaks</strong>. If I had more time working on 
+                            Foodstop, I <strong>would have liked to implement a salting algorithm</strong> for password protection to ensure 
                             password hashes don't result in the same hash for the same password. 
                         </p>
 
@@ -220,9 +220,9 @@ function FoodStop( {setPage} ) {
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            Throughout development on FoodStop, our team used Git and Github for version control for 
+                            Throughout development on FoodStop, our team <strong>used Git and GitHub</strong> for version control for a
                             streamlined workflow. Prior to this project, I had used Git on multiple occasions so it wasn't 
-                            necessarily new to me but development on FoodStop further increased my experience using Git 
+                            necessarily new to me but development on FoodStop <strong>further increased my experience using Git </strong> 
                             for version control.
                         </p>
 

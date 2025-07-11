@@ -36,20 +36,20 @@ function TextBased( {setPage} ) {
                         <hr className="my-4 border border-primary border-2"/>
 
                         <p className="text-dark">
-                            Our goal when developing our Text Based Role Playing Game was to create a game with tons of 
-                            replay-ability allowing you to fully emerse yourself in a medival fantacy world with magic, 
+                            Our goal when developing our Text-Based Role Playing Game was to create a game with tons of 
+                            replayability allowing you to fully immerse yourself in a medieval fantacy world with magic, 
                             enemies, dragons, and tons of cool areas to find. With 4 different classes to play through, 
-                            tons of NPC's to talk to, places to explore, and at least 40 distinct weapons per class, there 
+                            tons of NPCs to talk to, places to explore, and at least 40 distinct weapons per class, there 
                             are tons of things to explore. We also wanted to make the game functional on the most outdated 
-                            machines. For this reason, we have no graphics and the game is entirely playable through the 
-                            terminal. To run the game, all you need to do is have the Java Developer Kit installed on your 
+                            machines. For this reason, we have no graphics and the game is <strong>entirely playable through the 
+                            terminal</strong>. To run the game, all you need to do is have the Java Development Kit installed on your 
                             machine and run the GameThread.java file to start your journey. As each playthrough can take 
                             hours to complete, we also implemented a saving feature to allow you to come back to your playthrough 
                             when you have the free time to do so! An interesting restriction we placed on ourselves when 
-                            creating the game was to implement all functionality entirely through Java's Class Heirarchy 
-                            system! Though there might have been some easier ways to achieve the things we created in our 
-                            game, this restriction promoted creative problem solving and lead to our full utilization of 
-                            object oriented programming in game development! With all that being said, feel free to jump in 
+                            creating the game was to implement <strong>all functionality entirely through Java's Class Hierarchy 
+                            system</strong>! Though there might have been some easier ways to achieve the things we created in our 
+                            game, this restriction <strong>promoted creative problem solving</strong> and led to our <strong>full utilization of 
+                            object-oriented programming in game development</strong>! With all that being said, feel free to jump in 
                             and begin your journey in the mystical world achieved entirely through code!
                         </p>
                     
@@ -71,63 +71,63 @@ function TextBased( {setPage} ) {
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    As the Team Lead, I was responsible for coordinating and leading group meetings. 
-                                    In this role, I used a whiteboard to coordinate and design the code structure of 
-                                    the class heirarchy system with input from the team. Along with code structure, I 
-                                    also lead the design of the storyline structure of our game, indicating branches 
-                                    in storyline and where storylines would reconverge to progress with a semilinear 
-                                    storyline with slight deviations depending on class path.
+                                    As the Team Lead, I was <strong>responsible for coordinating and leading group meetings</strong>. 
+                                    In this role, I used a whiteboard to <strong>coordinate and design the code structure of 
+                                    the class hierarchy system</strong> with input from the team. Along with code structure, I 
+                                    also led the <strong>design of the storyline structure</strong> of our game, indicating branches 
+                                    in the storyline and where storylines would reconverge to progress with a <strong>semilinear 
+                                    storyline</strong> with slight deviations depending on the class path.
                                 </p>
 
-                                <h3 className="text-primary text-start">Creation and Implementation of Class Heirarchies</h3>
+                                <h3 className="text-primary text-start">Creation and Implementation of Class Hierarchies</h3>
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    As the owner of the GitHub Repository, I created and implemented the 13 separate 
-                                    game feature classes discussed in our meetings including their parent classes for shared 
-                                    characteristics. This involved implementing their variables and constructors as well 
-                                    as their class relationships.
+                                    As the owner of the GitHub Repository, I <strong>created and implemented the 13 separate 
+                                    game feature classes</strong> discussed in our meetings <strong>including their parent classes for shared 
+                                    characteristics</strong>. This involved <strong>implementing their variables and constructors</strong> as well 
+                                    as their <strong>class relationships</strong>.
                                 </p>
 
                                 <h3 className="text-primary text-start">All Aspects of the Mage Class</h3>
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    As a 4 person group, each group member took responsiblity for developing one of the 
-                                    4 playable classes. My selected class was the mage class. Development of this class 
-                                    involved creating the tutorial, a special mage-specific mission (which served as 
-                                    chapter 3 of our game), implementation of a mana system for battles fought with a 
-                                    mage weapon, and creation of 40 different magic weapons, each with accompanying 
-                                    special attacks.
+                                    As a 4-person group, each group member took <strong>responsibility for developing one of the 
+                                    4 playable classes</strong>. My selected class was the <strong>mage class</strong>. Development of this class 
+                                    involved <strong>creating the tutorial</strong>, a <strong>special mage-specific mission</strong> (which served as 
+                                    chapter 3 of our game), <strong>implementation of a mana system for battles</strong> fought with a 
+                                    mage weapon, and <strong>creation of 40 different magic weapons</strong>, each with <strong>accompanying 
+                                    special attacks</strong>.
                                 </p>
 
                                 <h3 className="text-primary text-start">Game Thread Functionality Mage Class Storyline, and Final Mission</h3>
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    I was responsible for the inital setup of the Gamethread, indicating how the GameThread 
-                                    file would run the individual choices the player makes. Along with this, the major contribution 
-                                    I made to the GameThread file was the development of the mage class, the mage tutorial, and 
-                                    the final mission given to all players which served as chapter 4. 
+                                    I was <strong>responsible for the initial setup of the GameThread</strong>, indicating how <strong>the GameThread 
+                                    file would run</strong> the individual choices the player makes. Along with this, the major contribution 
+                                    I made to the GameThread file was the <strong>development of the mage class special mission</strong>, the <strong>mage tutorial</strong>, and 
+                                    the <strong>final mission given to all players</strong> which served as chapter 4. 
                                 </p>
 
                                 <h3 className="text-primary text-start">Shop and Battle Functionality</h3>
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    I also developed all of the shop functionality and battle functionality. The shop functionality 
-                                    was present in the hub at each stage of the game whereas the battle functionality was present in 
-                                    all phases of the game, both in storyline and in hub areas. The battle functionality was particularly 
-                                    interesting as I implemented the use of consumables, weapons, special attacks (which had a chance 
-                                    to miss or do extra damage), and guarding which reduced damage taken for 3 turns in a battle.
+                                    I also <strong>developed all of the shop functionality</strong> and <strong>battle functionality</strong>. The shop functionality 
+                                    was <strong>present in the hub at each stage of the game</strong> whereas the <strong>battle functionality was present in 
+                                    all phases of the game</strong>, both <strong>in storyline and in hub areas</strong>. The battle functionality was particularly 
+                                    interesting as <strong>I implemented the use of consumables</strong>, <strong>weapons</strong>, <strong>special attacks</strong> (which had a chance 
+                                    to miss or do extra damage), <strong>and guarding</strong> which reduced damage taken for 3 turns in a battle.
                                 </p>
 
                                 <h3 className="text-primary text-start">Development of Consumables</h3>
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
-                                    I also developed 5 different consumables (14 if you consider chapter variants 
-                                    of potions) which were also implemented into the battle class to allow for health 
+                                    I also <strong>developed 5 different consumables</strong> (<strong>14 if you consider chapter variants </strong> 
+                                    of potions) which were also <strong>implemented into the battle class</strong> to allow for health 
                                     recovery, mana recovery, damage over time through poison, speed boosts allowing for 
                                     two attack turns in a row, and damage boosts increasing your attack damage for a turn.
                                 </p>
@@ -165,7 +165,7 @@ function TextBased( {setPage} ) {
                                         src="src/assets/images/TextBasedRPG_Graph.png" 
                                         alt="Text-Based RPG Class Heirarchy Graph" />
                                     <p class="mt-1 text-center text-secondary">
-                                        <em>*Text Based RPG Class Heirarchy Graph and Interactions*</em>
+                                        <em>*Text-Based RPG Class Hierarchy Graph and Interactions*</em>
                                     </p>
                                 </div>
 
@@ -188,38 +188,39 @@ function TextBased( {setPage} ) {
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            Since our project was entirely coded through object oriented programming, through 
-                            development, I got very comfortable with object oriented programming and class 
-                            interactions between parent and child classes. This was necessary to develop 
-                            our fully functional game utilizing classes to avoid repeated code and data.
+                            Since our project was <strong>entirely coded through object-oriented programming</strong>, through 
+                            development, I got <strong>very comfortable with object-oriented programming</strong> and class 
+                            <strong>interactions between parent and child classes</strong>. This was necessary to develop 
+                            our fully functional game utilizing classes to <strong>avoid repeated code and data</strong>.
                         </p>
 
-                        <h3 className="text-primary text-start">Java Class Heirarchies</h3>
+                        <h3 className="text-primary text-start">Java Class Hierarchies</h3>
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            Expanding on object oriented programming, as this project was developed completely 
-                            using Java classes, I became very firmiliar specifically with how Java's classes work 
-                            and how different classes interact in the Java coding language.
+                            Expanding on object-oriented programming, as this project was developed completely 
+                            using Java classes, I became very familiar <strong>specifically with how Java's classes work </strong> 
+                            and how <strong>different classes interact in the Java</strong> coding language.
                         </p>
                     
                         <h3 className="text-primary text-start">Team Leadership</h3>
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            For this project, I served as team lead by coordinating meetings, setting deadlines, 
-                            managing our repository, leading group discussion, doing a large portion of the architecture 
-                            design (with a lot of group collaboration and input from my team), and ensuring a polished 
-                            final product.
+                            For this project, <strong>I served as team lead</strong> by <strong>coordinating meetings</strong>, <strong>setting deadlines</strong>, 
+                            <strong> managing our repository</strong>, <strong>leading group discussions</strong>, <strong>doing a large portion of the architecture </strong> 
+                            design (with a lot of group collaboration and input from my team), and <strong>ensuring a polished 
+                            final product</strong>.
                         </p>
 
                         <h3 className="text-primary text-start">Git Version Control</h3>
                         <hr className="my-4 border border-primary border-2"/>
                         
                         <p className="text-dark">
-                            This was my first large project using GitHub and Git version control and as such was a 
-                            major learning experience for me on how to manage branches, merge, push, and pull with 
-                            updated changes from my groupmates. I would continue on to hone my skills in this area 
+                            This was <strong>my first large project using GitHub and Git</strong> version control and as such was a 
+                            <strong> major learning experience</strong> for me on how to <strong>manage branches</strong>, <strong>merge</strong>, 
+                            <strong> push</strong>, and <strong>pull updated changes </strong> from my groupmates. 
+                            <strong> I would continue on to hone my skills</strong> in this area 
                             on future projects but this was my introduction. 
                         </p>
 
