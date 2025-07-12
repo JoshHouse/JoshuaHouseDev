@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header';
-import wgjDashboardDemo from '../../assets/videos/WGJDashboardDemo.mp4';
+import wgjDashboardDemo from '../../../assets/videos/WGJDashboardDemo.mp4';
 
 
 function WGJDashboard( {setPage} ) {

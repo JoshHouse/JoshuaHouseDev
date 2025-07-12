@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header';
-import dummyVideo from '../../assets/videos/Dummy2048AnimDemo.mp4';
-import dummyModelImage from '../../assets/images/Dummy2048PlayerModel.png';
+import dummyVideo from '../../../assets/videos/Dummy2048AnimDemo.mp4';
+import dummyModelImage from '../../../assets/images/Dummy2048PlayerModel.png';
 
 
 function Dummy2048( {setPage} ) {

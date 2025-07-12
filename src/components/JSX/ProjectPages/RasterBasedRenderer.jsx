@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header';
-import rasterBasedDemo from '../../assets/videos/RasterBasedRendererDemo.mp4';
+import rasterBasedDemo from '../../../assets/videos/RasterBasedRendererDemo.mp4';
 
 
 function RasterBased( {setPage} ) {

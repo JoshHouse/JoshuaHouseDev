@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header';
-import velocityTrialsDemo from '../../assets/videos/VelocityTrialsDemo.mp4';
+import velocityTrialsDemo from '../../../assets/videos/VelocityTrialsDemo.mp4';
 
 
 function VelocityTrials( {setPage} ) {

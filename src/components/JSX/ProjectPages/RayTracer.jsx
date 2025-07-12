@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header';
-import rayTracerDemo from '../../assets/videos/RayTracerDemo.mp4';
+import rayTracerDemo from '../../../assets/videos/RayTracerDemo.mp4';
 
 
 function RayTracer( {setPage} ) {

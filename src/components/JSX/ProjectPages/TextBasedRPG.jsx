@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header';
-import textBasedRPGDemo from '../../assets/videos/TextBasedRPGDemo.mp4';
-import textBasedRPGGraph from '../../assets/images/TextBasedRPG_Graph.png';
+import textBasedRPGDemo from '../../../assets/videos/TextBasedRPGDemo.mp4';
+import textBasedRPGGraph from '../../../assets/images/TextBasedRPG_Graph.png';
 
 function TextBased( {setPage} ) {
 

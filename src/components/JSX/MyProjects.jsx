@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from './Header';
 import '../CSS/MyProjects.css';
-import velocityTrialsBanner from 'src/assets/images/velocity-trials-banner.png';
-import foodStopBanner from 'src/assets/images/food-stop-banner.png';
-import WGJBanner from 'src/assets/images/WGJ-banner.png';
-import dummy2048Banner from 'src/assets/images/dummy2048-banner.png';
-import rayTracerBanner from 'src/assets/images/ray-tracer-banner.png';
-import rasterBasedRendererBanner from 'src/assets/images/raster-based-renderer-banner.png';
-import textBasedRPGBanner from 'src/assets/images/text-based-RPG-banner.png';
+import velocityTrialsBanner from '../../assets/images/velocity-trials-banner.png';
+import foodStopBanner from '../../assets/images/food-stop-banner.png';
+import WGJBanner from '../../assets/images/WGJ-banner.png';
+import dummy2048Banner from '../../assets/images/dummy2048-banner.png';
+import rayTracerBanner from '../../assets/images/ray-tracer-banner.png';
+import rasterBasedRendererBanner from '../../assets/images/raster-based-renderer-banner.png';
+import textBasedRPGBanner from '../../assets/images/text-based-RPG-banner.png';
 
 function MyProjects( {setPage} ) {
 

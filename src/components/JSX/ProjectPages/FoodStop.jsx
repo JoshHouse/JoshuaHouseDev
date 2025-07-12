@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header';
-import foodStopDemo from '../../assets/videos/FoodStopDemo.mp4';
+import foodStopDemo from '../../../assets/videos/FoodStopDemo.mp4';
 
 
 function FoodStop( {setPage} ) {
