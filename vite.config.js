@@ -4,6 +4,6 @@ import glsl from 'vite-plugin-glsl';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/JoshuaHouseDev/',
+  base: '/',
   plugins: [react(), glsl()],
 })
