@@ -1,5 +1,8 @@
 import React from 'react';
 import Header from '../Header';
+import dummyVideo from '../../assets/videos/Dummy2048AnimDemo.mp4';
+import dummyModelImage from '../../assets/images/Dummy2048PlayerModel.png';
+
 
 function Dummy2048( {setPage} ) {
 
@@ -25,8 +28,8 @@ function Dummy2048( {setPage} ) {
                         
                         {/* Demo Video */}
                         <div class="float-end me-3 w-50">
-                            <video class="w-100 h-auto rounded ms-3 mb-3" controls>
-                                <source src="src/assets/videos/Dummy2048AnimDemo.mp4" type="video/mp4" />
+                            <video className="w-100 h-auto rounded ms-3 mb-3" controls>
+                                <source src={dummyVideo} type="video/mp4" />
                                 Your browser does not support .mp4 videos
                             </video>
                             <p class="mt-1 text-center text-secondary">
@@ -80,11 +83,12 @@ function Dummy2048( {setPage} ) {
                                 </p>
 
                                 <div class="float-end me-3 w-100">
-                                    <img 
-                                        class="d-block mx-auto rounded mb-3" 
-                                        style={{ maxHeight: '500px', maxWidth: '244px'}} 
-                                        src="src/assets/images/Dummy2048PlayerModel.png" 
-                                        alt="Dummy2048 Player Model" />
+                                    <img
+                                        className="d-block mx-auto rounded mb-3"
+                                        style={{ maxHeight: '500px', maxWidth: '244px' }}
+                                        src={dummyModelImage}
+                                        alt="Dummy2048 Player Model"
+                                    />
                                     <p class="mt-1 text-center text-secondary">
                                         <em>*Dummy2048 Player Model with Textures*</em>
                                     </p>

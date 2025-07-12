@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from '../Header';
+import rasterBasedDemo from '../../assets/videos/RasterBasedRendererDemo.mp4';
+
 
 function RasterBased( {setPage} ) {
 
@@ -20,8 +22,8 @@ function RasterBased( {setPage} ) {
                         
                         {/* Demo Video */}
                         <div class="float-end me-3 w-50">
-                            <video class="w-100 h-auto rounded ms-3 mb-3" controls>
-                                <source src="src/assets/videos/RasterBasedRendererDemo.mp4" type="video/mp4" />
+                            <video className="w-100 h-auto rounded ms-3 mb-3" controls>
+                                <source src={rasterBasedDemo} type="video/mp4" />
                                 Your browser does not support .mp4 videos
                             </video>
                             <p class="mt-1 text-center text-secondary">

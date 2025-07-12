@@ -1,6 +1,13 @@
 import React from 'react';
 import Header from './Header';
 import '../CSS/AboutMe.css';
+import headshot from '../../assets/images/JoshuaHouseHeadshot.jpeg';
+import joynerPhoto from '../../assets/images/JoynerStudySpotGraduation.png';
+import sittingWall from '../../assets/images/SittingOnAWall.png';
+import climbing from '../../assets/images/RockClimbingBoone.png';
+import familyGrad from '../../assets/images/FamilyGraduation.png';
+import annaBrunch from '../../assets/images/AnnaBrunch.png';
+import aurora from '../../assets/images/Aurora.png';
 
 function AboutMe( {setPage} ) {
 
@@ -28,7 +35,7 @@ function AboutMe( {setPage} ) {
                         
                         {/* Headshot Image */}
                         <img
-                            src="src/assets/images/JoshuaHouseHeadshot.jpeg"
+                            src={headshot}
                             id="about-me-image-1"
                             className="img-fluid float-end ms-5 mb-3 rounded border border-2 border-primary"
                             alt="Joshua House Headshot"
@@ -162,11 +169,12 @@ function AboutMe( {setPage} ) {
                                 <div class="float-end d-flex justify-content-center mb-3"
                                     style={{ maxWidth: '50%'}} >
                                     <div class="text-center">
-                                        <img 
-                                            class="img-fluid rounded border border-2 border-primary" 
-                                            style={{ maxHeight: '400px', maxWidth: '90%'}} 
-                                            src="src/assets/images/JoynerStudySpotGraduation.png" 
-                                            alt="Joyner Library Study Spot" />
+                                        <img
+                                            className="img-fluid rounded border border-2 border-primary"
+                                            style={{ maxHeight: '400px', maxWidth: '90%' }}
+                                            src={joynerPhoto}
+                                            alt="Joyner Library Study Spot"
+                                        />
                                         <p class="mt-1 text-secondary">
                                             <em>*My Joyner Library Study Spot Taken on Graduation Day*</em>
                                         </p>
@@ -209,12 +217,12 @@ function AboutMe( {setPage} ) {
                         <hr className="my-4 border border-primary border-2"/>
 
                         <img
-                            src="src/assets/images/SittingOnAWall.png"
+                            src={sittingWall}
                             id="about-me-image-1"
-                            style={{ maxHeight: '340px'}}
+                            style={{ maxHeight: '340px' }}
                             className="img-fluid float-end ms-5 mb-3 rounded border border-2 border-primary"
                             alt="Joshua Sitting On A Wall"
-                        />
+                            />
 
                         <p className="text-dark">
                             On a personal level, there are only a few things you need to know about me. There are only a few 
@@ -240,12 +248,12 @@ function AboutMe( {setPage} ) {
                         <hr className="my-4 border border-primary border-2"/>
 
                         <img
-                            src="src/assets/images/RockClimbingBoone.png"
+                            src={climbing}
                             id="about-me-image-1"
-                            style={{ maxHeight: '200px'}}
+                            style={{ maxHeight: '200px' }}
                             className="img-fluid float-end ms-5 mb-3 rounded border border-2 border-primary"
                             alt="Joshua Rock Climbing"
-                        />
+                            />
 
                         <p className="text-dark">
                             In terms of hobbies, one of my favorite things to do is to go rock climbing! I definitely prefer outdoor rock climbing 
@@ -268,12 +276,12 @@ function AboutMe( {setPage} ) {
                                 <hr className="my-4 border border-primary border-2"/>
                                 
                                 <img
-                                    src="src/assets/images/FamilyGraduation.png"
+                                    src={familyGrad}
                                     id="about-me-image-1"
-                                    style={{ maxHeight: '250px'}}
+                                    style={{ maxHeight: '250px' }}
                                     className="img-fluid float-end ms-5 mb-3 rounded border border-2 border-primary"
                                     alt="Joshua and his family on Graduation Day"
-                                />
+                                    />
 
                                 <p className="text-dark">
                                     My family members are some of the most important people in my life. For my early development (through high school) my mother 
@@ -299,12 +307,12 @@ function AboutMe( {setPage} ) {
                                 <hr className="my-4 border border-primary border-2"/>
                                 
                                 <img
-                                    src="src/assets/images/AnnaBrunch.png"
+                                    src={annaBrunch}
                                     id="about-me-image-1"
-                                    style={{ maxHeight: '150px'}}
+                                    style={{ maxHeight: '150px' }}
                                     className="img-fluid float-end ms-5 mb-3 rounded border border-2 border-primary"
-                                    alt="Joshua and his family on Graduation Day"
-                                />
+                                    alt="Joshua and his girlfriend"
+                                    />
 
                                 <p className="text-dark">
                                     My girlfriend of roughly 2 1/2 years is another major part of my support system. I was lucky enough to meet her in August of 
@@ -322,12 +330,12 @@ function AboutMe( {setPage} ) {
                                 <hr className="my-4 border border-primary border-2"/>
                                 
                                 <img
-                                    src="src/assets/images/Aurora.png"
+                                    src={aurora}
                                     id="about-me-image-1"
-                                    style={{ maxHeight: '100px'}}
+                                    style={{ maxHeight: '100px' }}
                                     className="img-fluid float-end ms-5 mb-3 rounded border border-2 border-primary"
-                                    alt="Joshua and his family on Graduation Day"
-                                />
+                                    alt="Aurora the Cat"
+                                    />
 
                                 <p className="text-dark">
                                     Lastly is my cat Aurora. Simply put I didn't know I could love a living being as much as I love Aurora. She's definitely on the 

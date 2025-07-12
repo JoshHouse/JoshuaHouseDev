@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from '../Header';
+import textBasedRPGDemo from '../../assets/videos/TextBasedRPGDemo.mp4';
+import textBasedRPGGraph from '../../assets/images/TextBasedRPG_Graph.png';
 
 function TextBased( {setPage} ) {
 
@@ -21,8 +23,8 @@ function TextBased( {setPage} ) {
                         
                         {/* Demo Video */}
                         <div class="float-end me-3 w-50">
-                            <video class="w-100 h-auto rounded ms-3 mb-3" controls>
-                                <source src="src/assets/videos/TextBasedRPGDemo.mp4" type="video/mp4" />
+                            <video className="w-100 h-auto rounded ms-3 mb-3" controls>
+                                <source src={textBasedRPGDemo} type="video/mp4" />
                                 Your browser does not support .mp4 videos
                             </video>
                             <p class="mt-1 text-center text-secondary">
@@ -161,9 +163,11 @@ function TextBased( {setPage} ) {
                                 </p>
 
                                 <div class="float-end me-3 w-100">
-                                    <img class="w-100 h-auto rounded ms-3 mb-3" 
-                                        src="src/assets/images/TextBasedRPG_Graph.png" 
-                                        alt="Text-Based RPG Class Heirarchy Graph" />
+                                    <img
+                                        className="w-100 h-auto rounded ms-3 mb-3"
+                                        src={textBasedRPGGraph}
+                                        alt="Text-Based RPG Class Hierarchy Graph"
+                                    />
                                     <p class="mt-1 text-center text-secondary">
                                         <em>*Text-Based RPG Class Hierarchy Graph and Interactions*</em>
                                     </p>

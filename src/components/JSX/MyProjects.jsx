@@ -1,6 +1,13 @@
 import React from 'react';
 import Header from './Header';
 import '../CSS/MyProjects.css';
+import velocityTrialsBanner from 'src/assets/images/velocity-trials-banner.png';
+import foodStopBanner from 'src/assets/images/food-stop-banner.png';
+import WGJBanner from 'src/assets/images/WGJ-banner.png';
+import dummy2048Banner from 'src/assets/images/dummy2048-banner.png';
+import rayTracerBanner from 'src/assets/images/ray-tracer-banner.png';
+import rasterBasedRendererBanner from 'src/assets/images/raster-based-renderer-banner.png';
+import textBasedRPGBanner from 'src/assets/images/text-based-RPG-banner.png';
 
 function MyProjects( {setPage} ) {
 
@@ -61,7 +68,7 @@ function MyProjects( {setPage} ) {
                     <div className="w-66 h-100 d-flex justify-content-center align-items-center">
                         
                         <img
-                            src="src/assets/images/velocity-trials-banner.png"
+                            src={velocityTrialsBanner}
                             className="mw-100 mh-100 object-fit-contain"
                             alt="Velocity Trials Banner"
                         />
@@ -105,7 +112,7 @@ function MyProjects( {setPage} ) {
                     <div className="w-66 h-100 d-flex justify-content-center align-items-center">
                         
                         <img
-                            src="src/assets/images/food-stop-banner.png"
+                            src={foodStopBanner}
                             className="mw-100 mh-100 object-fit-contain"
                             alt="FoodStop Banner"
                         />
@@ -150,7 +157,7 @@ function MyProjects( {setPage} ) {
                     <div className="w-66 h-100 d-flex justify-content-center align-items-center">
                         
                         <img
-                            src="src/assets/images/WGJ-banner.png"
+                            src={WGJBanner}
                             className="mw-100 mh-100 object-fit-contain"
                             alt="Weather Dashboard Banner"
                         />
@@ -196,7 +203,7 @@ function MyProjects( {setPage} ) {
                     <div className="w-66 h-100 d-flex justify-content-center align-items-center">
                         
                         <img
-                            src="src/assets/images/dummy2048-banner.png"
+                            src={dummy2048Banner}
                             className="mw-100 mh-100 object-fit-contain"
                             alt="Dummy2048 Banner"
                         />
@@ -239,7 +246,7 @@ function MyProjects( {setPage} ) {
                     <div className="w-66 h-100 d-flex justify-content-center align-items-center">
                         
                         <img
-                            src="src/assets/images/ray-tracer-banner.png"
+                            src={rayTracerBanner}
                             className="mw-100 mh-100 object-fit-contain"
                             alt="Ray Tracer Banner"
                         />
@@ -284,7 +291,7 @@ function MyProjects( {setPage} ) {
                     <div className="w-66 h-100 d-flex justify-content-center align-items-center">
                         
                         <img
-                            src="src/assets/images/raster-based-renderer-banner.png"
+                            src={rasterBasedRendererBanner}
                             className="mw-100 mh-100 object-fit-contain"
                             alt="Raster Based Renderer Banner"
                         />
@@ -327,7 +334,7 @@ function MyProjects( {setPage} ) {
                     <div className="w-66 h-100 d-flex justify-content-center align-items-center">
                         
                         <img
-                            src="src/assets/images/text-based-RPG-banner.png"
+                            src={textBasedRPGBanner}
                             className="mw-100 mh-100 object-fit-contain"
                             alt="Text Based RPG Banner"
                         />
