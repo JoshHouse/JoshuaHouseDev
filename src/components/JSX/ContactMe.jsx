@@ -13,10 +13,10 @@ function ContactMe( {setPage} ) {
         form.current.querySelector('input[name="time"]').value = currentTime;
 
         emailjs.sendForm(
-            'service_4h480hl',
-            'template_0m3exxb',
+            import.meta.env.VITE_EMAILJS_SERVICE_ID,
+            import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form.current,
-            'AJ5kls934Y7KbNAo0'
+            import.meta.env.VITE_EMAILJS_PUBLIC_KEY
         ).then(() => {
             alert("Message sent successfully! You can expect a reply within 24 hours " + 
                 "to the email you attached to your message."
