@@ -12,23 +12,16 @@
     cursor: pointer;
 }
 
-#about-me {
-    background-image: url("../../assets/images/JoshuaHouseHeadshot.jpeg");
-}
-
 #contact-me {
-    background-image: url("../../assets/images/Mail-Icon.png");
     background-size: contain;
 }
 
 #my-projects {
-    background-image: url("../../assets/images/text-based-RPG-block.png");
     background-size: cover;
     background-position: left;
 }
 
 #history {
-    background-image: url("../../assets/images/KarenGraduation.png");
     background-size: cover;
 }
 

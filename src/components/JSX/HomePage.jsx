@@ -1,5 +1,9 @@
 import React from 'react';
 import '../CSS/HomePage.css';
+import headshot from '../../assets/images/JoshuaHouseHeadshot.jpeg';
+import mailIcon from '../../assets/images/Mail-Icon.png';
+import rpgBlock from '../../assets/images/text-based-RPG-block.png';
+import gradPhoto from '../../assets/images/KarenGraduation.png';
 
 function HomePage({ setPage }) {
   
@@ -60,6 +64,7 @@ function HomePage({ setPage }) {
               
               <div
                 id="about-me"
+                style={{ backgroundImage: `url(${headshot})` }}
                 className="home-page-select col-12 col-lg-4 p-3 d-flex flex-column justify-content-end align-items-end rounded border border-primary border-2"
                 onClick={handleAboutMeClick}
               >
@@ -72,6 +77,7 @@ function HomePage({ setPage }) {
 
               <div
                 id="my-projects"
+                style={{ backgroundImage: `url(${rpgBlock})` }}
                 className="home-page-select col-12 col-lg-7 p-3 d-flex flex-column justify-content-end align-items-end rounded border border-primary border-2"
                 onClick={handleMyProjectsClick}
               >
@@ -89,6 +95,7 @@ function HomePage({ setPage }) {
               
               <div
                 id="history"
+                style={{ backgroundImage: `url(${gradPhoto})` }}
                 className="home-page-select col-12 col-lg-7 p-3 d-flex flex-column justify-content-end align-items-end rounded border border-primary border-2"
                 onClick={handleHistoryClick}
               >
@@ -101,6 +108,7 @@ function HomePage({ setPage }) {
 
               <div
                 id="contact-me"
+                style={{ backgroundImage: `url(${mailIcon})` }}
                 className="home-page-select col-12 col-lg-4 p-3 d-flex flex-column justify-content-end align-items-end rounded border border-primary border-2"
                 onClick={handleContactMeClick}
               >
