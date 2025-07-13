@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import '../CSS/App.css';
 
+import ScrollToTop from './ScrollToTop'
 import HomePage from './HomePage';
 import AboutMe from './AboutMe';
 import MyProjects from './MyProjects';
@@ -21,6 +22,7 @@ function App() {
   return (
     <div id="pageContainer" className="w-100 vh-100">
       <Router basename={import.meta.env.BASE_URL}>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutMe />} />
