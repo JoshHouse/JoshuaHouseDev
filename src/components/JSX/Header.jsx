@@ -1,50 +1,17 @@
 import React from "react";
-import AboutMe from "./AboutMe";
+import { useNavigate } from "react-router-dom";
 
-function Header({ setPage }) {
-    
-    // Functions To Handle Page Switches
-    const handleHomeClick = () => {
-        setPage("home");
-        console.log('About Me clicked');
-    };
-    
-    const handleAboutMeClick = () => {
-        setPage("aboutMe");
-        console.log('About Me clicked');
-    };
-
-    const handleMyProjectsClick = () => {
-        setPage("myProjects");
-        console.log('My Projects clicked');
-    };
-
-    const handleHistoryClick = () => {
-        setPage("history");
-        console.log('History clicked');
-    };
-
-    const handleContactMeClick = () => {
-        setPage("contactMe");
-        console.log('Contact Me clicked');
-    };
-  
-
+function Header() {
+    const navigate = useNavigate();
 
     return (
-        
         <nav className="navbar navbar-expand-md bg-primary bg-opacity-75 ps-3 pe-3 pe-md-0">
-            {/* Navbar Container */}
-
-            {/* JoshuaHouse.dev Brand */}
-            <a onClick={handleHomeClick} 
-                className="navbar-brand text-light fw-bold">
-                
+            {/* Brand */}
+            <a onClick={() => navigate('/')} className="navbar-brand text-light fw-bold" role="button">
                 JoshuaHouse.dev
-
             </a>
 
-            {/* Collapsable Menu Expand Button (Visible on Small Screens) */}
+            {/* Mobile Toggle */}
             <button className="navbar-toggler px-3" 
                 type="button"
                 data-bs-toggle="collapse"
@@ -52,56 +19,39 @@ function Header({ setPage }) {
                 aria-controls="navbarMenu"
                 aria-expanded="false"
                 aria-label="Toggle navigation">
-
                 <span className="navbar-toggler-icon"></span>
-
             </button>
 
-            {/* Collapsable Menu */}
-            <div id="navbarMenu"
-                className="collapse navbar-collapse justify-content-end align-center">
-                
-                
+            {/* Menu */}
+            <div id="navbarMenu" className="collapse navbar-collapse justify-content-end align-center">
                 <ul className="navbar-nav">
-                    
-                    {/* Education and Work History Button */}
                     <li className="nav-item">
-                        <a className="nav-link px-2 border-start border-light text-light" 
-                            onClick={handleHistoryClick}>
+                        <a className="nav-link px-2 border-start border-light text-light"
+                           onClick={() => navigate('/history')} role="button">
                             My Education and Work History
                         </a>
                     </li>
-
-                    {/* My Projects Button */}
                     <li className="nav-item">
-                        <a className="nav-link px-2 border-start border-light text-light" 
-                            onClick={handleMyProjectsClick}>
+                        <a className="nav-link px-2 border-start border-light text-light"
+                           onClick={() => navigate('/projects')} role="button">
                             My Projects
                         </a>
                     </li>
-
-                    {/* About Me Button */}
                     <li className="nav-item">
-                        <a className="nav-link px-2 border-start border-light text-light" 
-                            onClick={handleAboutMeClick}>
+                        <a className="nav-link px-2 border-start border-light text-light"
+                           onClick={() => navigate('/about')} role="button">
                             About Me
                         </a>
                     </li>
-                    
-                    {/* Contact Me Button */}
                     <li className="nav-item">
-                        <a className="nav-link px-2 border-start border-light text-light" 
-                            onClick={handleContactMeClick}>
+                        <a className="nav-link px-2 border-start border-light text-light"
+                           onClick={() => navigate('/contact')} role="button">
                             Contact Me
                         </a>
                     </li>
-                
                 </ul>
-            
             </div>
-        
         </nav>
-    
     );
 }
 

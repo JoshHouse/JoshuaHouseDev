@@ -3,12 +3,12 @@ import Header from '../Header';
 
 
 
-function RasterBased( {setPage} ) {
+function RasterBased() {
 
     return (
         <div className="w-100 bg-primary-subtle">
             
-            <Header setPage={setPage}/>
+            <Header />
             
             <div className="container py-4 px-4 my-2 rounded bg-light">
                 

@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import Header from './Header';
 
-function ContactMe( {setPage} ) {
+function ContactMe() {
     const form = useRef();
 
     // Function to Send email on form submit
@@ -41,7 +41,7 @@ function ContactMe( {setPage} ) {
             {/* Page Background Container */}
             
             {/* Header Component */}
-            <Header setPage={setPage}/>
+            <Header />
 
             {/* Page Sizing Container */}
             <div className="container py-4 px-4 my-2 rounded bg-light">

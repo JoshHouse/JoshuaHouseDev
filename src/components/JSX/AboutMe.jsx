@@ -9,7 +9,7 @@ import familyGrad from '../../assets/images/FamilyGraduation.png';
 import annaBrunch from '../../assets/images/AnnaBrunch.png';
 import aurora from '../../assets/images/Aurora.png';
 
-function AboutMe( {setPage} ) {
+function AboutMe() {
 
     return (
         
@@ -17,7 +17,7 @@ function AboutMe( {setPage} ) {
             {/* Background Color Page Container */}
             
             {/* Header Element */}
-            <Header setPage={setPage}/>
+            <Header />
 
             {/* Page Content Container */}
             <div className="container py-4 px-4 my-2 rounded bg-light">

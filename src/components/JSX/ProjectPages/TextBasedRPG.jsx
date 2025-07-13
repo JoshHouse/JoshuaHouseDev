@@ -2,13 +2,13 @@ import React from 'react';
 import Header from '../Header';
 import textBasedRPGGraph from '../../../assets/images/TextBasedRPG_Graph.png';
 
-function TextBased( {setPage} ) {
+function TextBased() {
 
     return (
         
         <div className="w-100 bg-primary-subtle">
             
-            <Header setPage={setPage}/>
+            <Header />
             
             <div className="container py-4 px-4 my-2 rounded bg-light">
                 

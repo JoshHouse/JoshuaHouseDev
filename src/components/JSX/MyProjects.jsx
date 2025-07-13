@@ -1,4 +1,6 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 import Header from './Header';
 import '../CSS/MyProjects.css';
 import velocityTrialsBanner from '../../assets/images/velocity-trials-banner.png';
@@ -9,47 +11,48 @@ import rayTracerBanner from '../../assets/images/ray-tracer-banner.png';
 import rasterBasedRendererBanner from '../../assets/images/raster-based-renderer-banner.png';
 import textBasedRPGBanner from '../../assets/images/text-based-RPG-banner.png';
 
-function MyProjects( {setPage} ) {
+function MyProjects() {
+    const navigate = useNavigate();
 
     const handleDummy2048Click = () => {
-        setPage("dummy2048");
+        navigate("/dummy2048");
         console.log('Dummy2048 project clicked');
     };
 
     const handleFoodStopClick = () => {
-        setPage("foodStop");
+        navigate("/foodStop");
         console.log('FoodStop project clicked');
     };
 
     const handleRasterBasedClick = () => {
-        setPage("rasterBased");
+        navigate("/rasterBased");
         console.log('Raster Based Renderer project clicked');
     };
 
     const handleRayTracerClick = () => {
-        setPage("rayTracer");
+        navigate("/rayTracer");
         console.log('Ray Traced Renderer project clicked');
     };
 
     const handleTextBasedClick = () => {
-        setPage("textBased");
+        navigate("/textBased");
         console.log('Text-Based RPG project clicked');
     };
 
     const handleVelocityTrialsClick = () => {
-        setPage("velocityTrials");
+        navigate("/velocityTrials");
         console.log('Velocity Trials project clicked');
     };
 
     const handleWGJClick = () => {
-        setPage("WGJDashboard");
+        navigate("/WGJDashboard");
         console.log('Weather Group Joseph - Weather Dashboard project clicked');
     };
 
     return (
         <div className="w-100 bg-primary-subtle">
             
-            <Header setPage={setPage}/>
+            <Header />
             
             <div className="container py-4 px-4 my-2 rounded bg-light">
                 

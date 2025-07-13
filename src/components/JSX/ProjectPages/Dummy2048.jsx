@@ -1,19 +1,23 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 import Header from '../Header';
 import dummyModelImage from '../../../assets/images/Dummy2048PlayerModel.png';
 
 
-function Dummy2048( {setPage} ) {
+function Dummy2048() {
+    
+    const navigate = useNavigate();
 
     const handleVelocityTrialsClick = () => {
-        setPage("velocityTrials");
+        navigate('/velocityTrials');
         console.log('Velocity Trials project clicked');
     };
 
     return (
         <div className="w-100 bg-primary-subtle">
             
-            <Header setPage={setPage}/>
+            <Header />
             
             <div className="container py-4 px-4 my-2 rounded bg-light">
                 
