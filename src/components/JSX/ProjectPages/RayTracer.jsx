@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../Header';
-import rayTracerDemo from '../../../assets/videos/RayTracerDemo.mp4';
 
 
 function RayTracer( {setPage} ) {
@@ -22,10 +21,15 @@ function RayTracer( {setPage} ) {
                         
                         {/* Demo Video */}
                         <div class="float-end me-3 w-50">
-                            <video className="w-100 h-auto rounded ms-3 mb-3" controls>
-                                <source src={rayTracerDemo} type="video/mp4" />
-                                Your browser does not support .mp4 videos
-                            </video>
+                            <div className="ratio ratio-16x9 rounded overflow-hidden m-2">
+                                <iframe
+                                    className="w-100 h-100"
+                                    src="https://www.youtube.com/embed/CjbnCkjdCXs"
+                                    title="Dummy2048 Demo"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
                             <p class="mt-1 text-center text-secondary">
                                 <em>*Demo of my ray tracer rendering shadows and reflections*</em>
                             </p>

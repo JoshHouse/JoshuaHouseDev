@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../Header';
-import dummyVideo from '../../../assets/videos/Dummy2048AnimDemo.mp4';
 import dummyModelImage from '../../../assets/images/Dummy2048PlayerModel.png';
 
 
@@ -27,12 +26,17 @@ function Dummy2048( {setPage} ) {
                     <div className="col-12">
                         
                         {/* Demo Video */}
-                        <div class="float-end me-3 w-50">
-                            <video className="w-100 h-auto rounded ms-3 mb-3" controls>
-                                <source src={dummyVideo} type="video/mp4" />
-                                Your browser does not support .mp4 videos
-                            </video>
-                            <p class="mt-1 text-center text-secondary">
+                        <div className="float-end me-3 w-50">
+                            <div className="ratio ratio-16x9 rounded overflow-hidden m-2">
+                                <iframe
+                                    className="w-100 h-100"
+                                    src="https://www.youtube.com/embed/a6lrIYeiNzE"
+                                    title="Dummy2048 Demo"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
+                            <p className="mt-1 text-center text-secondary">
                                 <em>*Demo of a few of the 17 different animations I created for our custom player model*</em>
                             </p>
                         </div>

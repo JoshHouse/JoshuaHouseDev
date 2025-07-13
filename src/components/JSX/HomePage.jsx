@@ -48,7 +48,10 @@ function HomePage({ setPage }) {
         <p className="m-0 text-primary">
           <em>
             Hello! My name is Joshua House. This is a website to display my 
-            educational, work related, and project achievements.
+            educational, work related, and project achievements. This sight 
+            was developed using <strong>React + Vite, Bootstrap, and jQuery.</strong> 
+            <strong> GitHub pages</strong> was used to host the website online and 
+            <strong> emailjs</strong> was used for the contact me form functionality.
           </em>
         </p>
         <hr className="my-4 border border-primary border-2"/>
