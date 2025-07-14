@@ -58,6 +58,16 @@ function TextBased() {
                             object-oriented programming in game development</strong>! With all that being said, feel free to jump in 
                             and begin your journey in the mystical world achieved entirely through code!
                         </p>
+
+                        <div className="d-grid gap-2 mb-4">
+                            <a href="https://github.com/JoshHouse/TextBasedRPG"
+                                target="_blank"     
+                                rel="noopener noreferrer" 
+                                className="btn btn-primary"
+                            >
+                                Text-Based RPG GitHub Page
+                            </a>
+                        </div>
                     
                     </div>
                 

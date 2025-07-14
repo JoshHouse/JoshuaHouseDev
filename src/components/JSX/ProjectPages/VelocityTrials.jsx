@@ -67,6 +67,16 @@ function VelocityTrials() {
                             movement capabilities and decrease your best time on a given chamber.
                             With that being said, good luck to you Dummy2048, and don't mess it up!
                         </p>
+
+                        <div className="d-grid gap-2 mb-4">
+                            <a href="https://github.com/JoshHouse/VelocityTrials"
+                                target="_blank"     
+                                rel="noopener noreferrer" 
+                                className="btn btn-primary"
+                            >
+                                Velocity Trials GitHub Page
+                            </a>
+                        </div>
                     
                     </div>
                 

@@ -55,6 +55,10 @@ function FoodStop() {
                             to take a look through the selections and we hope you find a recipe that knocks 
                             your socks off!
                         </p>
+
+                        <p class="mt-1 text-center text-secondary">
+                            <em>*Note: No GitHub link as this project contains API keys to Spoonacular API*</em>
+                        </p>
                     
                     </div>
                 

@@ -54,6 +54,10 @@ function WGJDashboard() {
                             Simply change the units in the settings menu to your preferred unit of measure. No matter 
                             what you need, our weather dashboard is sure to suit your needs!
                         </p>
+
+                        <p class="mt-1 text-center text-secondary">
+                            <em>*Note: No GitHub link as this project contains API keys to OpenWeather API and Google's Maps API*</em>
+                        </p>
                     
                     </div>
                 
