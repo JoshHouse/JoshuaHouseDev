@@ -16,15 +16,31 @@ function HomePage() {
         <h1 className="m-0 text-primary">JoshuaHouse.dev</h1>
         <hr className="my-4 border border-primary border-2" />
 
-        <p className="m-0 text-primary">
+        <p className="text-primary">
           <em>
             Hello! My name is Joshua House. This is a website to display my
-            educational, work related, and project achievements. This site was developed
-            using <strong>React + Vite, Bootstrap, and jQuery.</strong>
-            <strong> GitHub pages</strong> was used to host the website online and
+            educational, work related, and project achievements. 
+          </em>
+        </p>
+
+        <p className="text-primary">
+          <em>
+            This site was developed using <strong>React + Vite, Bootstrap, and 
+            jQuery. GitHub pages</strong> was used to host the website online and
             <strong> emailjs</strong> was used for the contact me form functionality.
           </em>
         </p>
+        
+        <div className="d-grid gap-2 mb-4">
+          <a href="https://github.com/JoshHouse/TextBasedRPG"
+              target="_blank"     
+              rel="noopener noreferrer" 
+              className="btn btn-primary"
+          >
+            My GitHub Page
+          </a>
+        </div>
+        
         <hr className="my-4 border border-primary border-2" />
 
         <div className="row w-100">

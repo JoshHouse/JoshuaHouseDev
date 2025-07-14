@@ -55,6 +55,11 @@ function RayTracer() {
                             is determined by the maximum bounce depth and the rendered output is saved and displayed 
                             <strong> using matplotlib</strong>, and <strong>JSON files define the scene, camera, and light setup</strong>.
                         </p>
+
+                        <p class="mt-1 text-center text-secondary">
+                            <em>*Note: In the process of uploading this project to GitHub. The project page link will 
+                                be here soon!*</em>
+                        </p>
                     
                     </div>
                 

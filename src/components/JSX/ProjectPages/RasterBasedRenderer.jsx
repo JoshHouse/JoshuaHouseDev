@@ -54,6 +54,11 @@ function RasterBased() {
                             helper functions in my project to take a set of values to build and transformation, 
                             rotation, and scale matrices. 
                         </p>
+
+                        <p class="mt-1 text-center text-secondary">
+                            <em>*Note: In the process of uploading this project to GitHub. The project page link will 
+                                be here soon!*</em>
+                        </p>
                     
                     </div>
                 
