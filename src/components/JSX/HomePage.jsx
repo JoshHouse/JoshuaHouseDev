@@ -32,6 +32,16 @@ function HomePage() {
         </p>
         
         <div className="d-grid gap-2 mb-4">
+          <a href="https://github.com/JoshHouse/JoshuaHouseDev"
+              target="_blank"     
+              rel="noopener noreferrer" 
+              className="btn btn-primary"
+          >
+            JoshuaHouse.dev GitHub Page
+          </a>
+        </div>
+
+        <div className="d-grid gap-2 mb-4">
           <a href="https://github.com/JoshHouse?tab=repositories"
               target="_blank"     
               rel="noopener noreferrer" 
