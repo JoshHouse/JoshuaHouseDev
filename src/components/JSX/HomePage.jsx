@@ -12,44 +12,67 @@ function HomePage() {
 
   return (
     <div id="home-page-container" className="w-100 bg-primary-subtle pt-1 pb-1">
+      
       <div className="container py-4 px-4 my-2 rounded bg-light">
+        
         <h1 className="m-0 text-primary">JoshuaHouse.dev</h1>
         <hr className="my-4 border border-primary border-2" />
-
-        <p className="text-primary">
-          <em>
-            Hello! My name is Joshua House. This is a website to display my
-            educational, work related, and project achievements. 
-          </em>
-        </p>
-
-        <p className="text-primary">
-          <em>
-            This site was developed using <strong>React + Vite, Bootstrap, and 
-            jQuery. GitHub pages</strong> was used to host the website online and
-            <strong> emailjs</strong> was used for the contact me form functionality.
-          </em>
-        </p>
         
-        <div className="d-grid gap-2 mb-4">
-          <a href="https://github.com/JoshHouse/JoshuaHouseDev"
-              target="_blank"     
-              rel="noopener noreferrer" 
-              className="btn btn-primary"
-          >
-            JoshuaHouse.dev GitHub Page
-          </a>
+        <div className="container">
+          
+          <div className="row align-items-center g-0">
+            
+            <p className="text-primary col-9">
+              <em>
+                I am a recent East Carolina University graduate where I attained a Bachelors Degree in Computer Science. 
+                I have a strong interest in game development however I am open to any software development positions. 
+                I have experience in <strong>Java</strong>, <strong>Python</strong>, and <strong>C#</strong> in both 
+                team and individual settings.
+              </em>
+            </p>
+
+            <div className="d-grid col-3">
+              <a href="https://www.linkedin.com/in/joshua-house-a8bb36284"
+                  target="_blank"     
+                  rel="noopener noreferrer" 
+                  className="btn btn-primary"
+              >
+                LinkedIn
+              </a>
+            </div>
+          
+          </div>
+          
+
         </div>
 
-        <div className="d-grid gap-2 mb-4">
-          <a href="https://www.linkedin.com/in/joshua-house-a8bb36284"
-              target="_blank"     
-              rel="noopener noreferrer" 
-              className="btn btn-primary"
-          >
-            My LinkedIn
-          </a>
+        <div className="container">
+          
+          <div className="row align-items-center g-0">
+            
+            <p className="text-primary col-9">
+              <em>
+                This site was developed using <strong>React + Vite, Bootstrap, and 
+                jQuery. GitHub pages</strong> hosts the site and<strong> emailjs </strong> 
+                is used for the contact me form functionality. 
+              </em>
+            </p>
+
+            <div className="d-grid col-3">
+              <a href="https://github.com/JoshHouse/JoshuaHouseDev"
+                target="_blank"     
+                rel="noopener noreferrer" 
+                className="btn btn-primary"
+              >
+                JoshuaHouse.dev GitHub Page
+              </a>
+            </div>
+          
+          </div>
+          
         </div>
+
+        
         
         <hr className="my-4 border border-primary border-2" />
 
