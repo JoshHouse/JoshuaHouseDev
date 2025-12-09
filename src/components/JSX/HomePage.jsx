@@ -42,7 +42,7 @@ function HomePage() {
         </div>
 
         <div className="d-grid gap-2 mb-4">
-          <a href="www.linkedin.com/in/joshua-house-a8bb36284"
+          <a href="https://www.linkedin.com/in/joshua-house-a8bb36284"
               target="_blank"     
               rel="noopener noreferrer" 
               className="btn btn-primary"
