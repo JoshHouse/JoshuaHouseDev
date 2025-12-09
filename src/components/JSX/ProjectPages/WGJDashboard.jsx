@@ -55,9 +55,15 @@ function WGJDashboard() {
                             what you need, our weather dashboard is sure to suit your needs!
                         </p>
 
-                        <p class="mt-1 text-center text-secondary">
-                            <em>*Note: No GitHub link as this project contains API keys to OpenWeather API and Google's Maps API*</em>
-                        </p>
+                        <div className="d-grid gap-2 mb-4">
+                            <a href="https://github.com/JoshHouse/Weather_Group_Joseph"
+                                target="_blank"     
+                                rel="noopener noreferrer" 
+                                className="btn btn-primary"
+                            >
+                                Weather Group Joseph GitHub Page
+                            </a>
+                        </div>
                     
                     </div>
                 

@@ -56,9 +56,15 @@ function FoodStop() {
                             your socks off!
                         </p>
 
-                        <p class="mt-1 text-center text-secondary">
-                            <em>*Note: No GitHub link as this project contains API keys to Spoonacular API*</em>
-                        </p>
+                        <div className="d-grid gap-2 mb-4">
+                            <a href="https://github.com/JoshHouse/FoodStop"
+                                target="_blank"     
+                                rel="noopener noreferrer" 
+                                className="btn btn-primary"
+                            >
+                                FoodStop GitHub Page
+                            </a>
+                        </div>
                     
                     </div>
                 
