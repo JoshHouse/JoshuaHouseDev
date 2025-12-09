@@ -42,12 +42,12 @@ function HomePage() {
         </div>
 
         <div className="d-grid gap-2 mb-4">
-          <a href="https://github.com/JoshHouse?tab=repositories"
+          <a href="www.linkedin.com/in/joshua-house-a8bb36284"
               target="_blank"     
               rel="noopener noreferrer" 
               className="btn btn-primary"
           >
-            My GitHub Page
+            My LinkedIn
           </a>
         </div>
         
