@@ -98,7 +98,7 @@ function MyProjects() {
                         <h4 className="text-dark">- Unity 3D Game Development </h4>
                         <h4 className="text-dark">- C# Development </h4>
                         <h4 className="text-dark">- Git Version Control with Unity </h4>
-                        <h4 className="text-dark">- Vector and Physics Application in 3D Enviornments </h4>
+                        <h4 className="text-dark">- Vector and Physics Application in 3D Environments </h4>
                         <h4 className="text-dark">- Group Collaboration and Team Dynamics </h4>
                         
                     </div>

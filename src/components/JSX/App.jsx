@@ -1,6 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import { Routes, Route } from 'react-router-dom';
 import '../CSS/App.css';
 
 import ScrollToTop from './ScrollToTop'
@@ -21,27 +20,25 @@ import VelocityTrials from './ProjectPages/VelocityTrials';
 function App() {
   return (
     <div id="pageContainer" className="w-100 vh-100">
-      <Router basename={import.meta.env.BASE_URL}>
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutMe />} />
-          <Route path="/projects" element={<MyProjects />} />
-          <Route path="/history" element={<History />} />
-          <Route path="/contact" element={<ContactMe />} />
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/projects" element={<MyProjects />} />
+        <Route path="/history" element={<History />} />
+        <Route path="/contact" element={<ContactMe />} />
 
-          <Route path="/dummy2048" element={<Dummy2048 />} />
-          <Route path="/textBased" element={<TextBased />} />
-          <Route path="/foodStop" element={<FoodStop />} />
-          <Route path="/rasterBased" element={<RasterBased />} />
-          <Route path="/rayTracer" element={<RayTracer />} />
-          <Route path="/WGJDashboard" element={<WGJDashboard />} />
-          <Route path="/velocityTrials" element={<VelocityTrials />} />
+        <Route path="/dummy2048" element={<Dummy2048 />} />
+        <Route path="/textBased" element={<TextBased />} />
+        <Route path="/foodStop" element={<FoodStop />} />
+        <Route path="/rasterBased" element={<RasterBased />} />
+        <Route path="/rayTracer" element={<RayTracer />} />
+        <Route path="/WGJDashboard" element={<WGJDashboard />} />
+        <Route path="/velocityTrials" element={<VelocityTrials />} />
 
-          {/* fallback route */}
-          <Route path="*" element={<HomePage />} />
-        </Routes>
-      </Router>
+        {/* fallback route */}
+        <Route path="*" element={<HomePage />} />
+      </Routes>
     </div>
   );
 }

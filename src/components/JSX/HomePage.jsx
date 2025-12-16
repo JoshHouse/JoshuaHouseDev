@@ -22,7 +22,7 @@ function HomePage() {
           
           <div className="row align-items-center g-0">
             
-            <p className="text-primary col-9">
+            <p className="text-primary col-6 col-lg-9">
               <em>
                 I am a recent East Carolina University graduate where I attained a Bachelors Degree in Computer Science. 
                 I have a strong interest in game development however I am open to any software development positions. 
@@ -31,7 +31,7 @@ function HomePage() {
               </em>
             </p>
 
-            <div className="d-grid col-3">
+            <div className="d-grid col-6 col-lg-3">
               <a href="https://www.linkedin.com/in/joshua-house-a8bb36284"
                   target="_blank"     
                   rel="noopener noreferrer" 
@@ -50,7 +50,7 @@ function HomePage() {
           
           <div className="row align-items-center g-0">
             
-            <p className="text-primary col-9">
+            <p className="text-primary col-6 col-lg-9">
               <em>
                 This site was developed using <strong>React + Vite, Bootstrap, and 
                 jQuery. GitHub pages</strong> hosts the site and<strong> emailjs </strong> 
@@ -58,7 +58,7 @@ function HomePage() {
               </em>
             </p>
 
-            <div className="d-grid col-3">
+            <div className="d-grid col-6 col-lg-3">
               <a href="https://github.com/JoshHouse/JoshuaHouseDev"
                 target="_blank"     
                 rel="noopener noreferrer" 

@@ -67,8 +67,8 @@ function AboutMe() {
                         <hr className="my-4 border border-primary border-2"/>
 
                         <p className="text-dark">
-                            My interest in technology was sparked by my father. My father has been working as a backend 
-                            developer at SAS for roughly 32 years so I was raised around technology for my entire life. 
+                            My interest in technology was sparked by my father. My father has been working in the tech 
+                            industry for roughly 32 years so I was raised around technology for my entire life. 
                             Being raised around someone up-to-date with the latest trends in the tech world taught 
                             me how to solve real-world problems using different functionality that technology provides. 
                             Although his influence started me on my journey into tech, many other factors in my developmental 
@@ -117,7 +117,7 @@ function AboutMe() {
                             {/* My Struggles Section */}
                             <div className="col-11 offset-1">
                                 
-                                <h4 className="text-primary text-start">My Struggles</h4>
+                                <h4 className="text-primary text-start">Struggles I had to Overcome</h4>
                                 <hr className="my-4 border border-primary border-2"/>
 
                                 <p className="text-dark">
