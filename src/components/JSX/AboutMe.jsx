@@ -91,12 +91,12 @@ function AboutMe() {
                             What first caused me to settle on computer science was an interest in game development, but, 
                             throughout my years at college, my passion for programming extended beyond just game development. 
                             I can truly say that most components of development are interesting to me. I have been introduced 
-                            to many areas of the computer science field including but not limited to frontend development, backend 
+                            to many areas of the computer science field, including but not limited to frontend development, backend 
                             development, database design, API design, graphics programming, and artificial intelligence programming. 
-                            Without fail, each of these fields taught me something new with regard to how modern day technological 
+                            Without fail, each of these fields taught me something new with regard to how modern-day technological 
                             systems run and furthered my interest in the vast topics of this field. Though my passion started with 
-                            game development, that passion has expanded to all of the other fields in tech and I am excited to start 
-                            a carreer that fuels that passion for learning!
+                            game development, that passion has expanded to all of the other fields in tech, and I am excited to start 
+                            a career that fuels that passion for learning!
                         </p>
 
                         {/* My Journey Title */}
