@@ -88,24 +88,15 @@ function AboutMe() {
                         <hr className="my-4 border border-primary border-2"/>
 
                         <p className="text-dark">
-                            Relating to my Intro, I truly consider myself passionate about all topics in tech. One of my 
-                            biggest passions regarding this field is the problem-solving aspect of any given problem. It is almost 
-                            guaranteed that any problem you face has a solution somewhere and it is simply a matter of finding it! 
-                            A passion of mine that stands out beyond the rest however is my passion for Computer Game Design! Possibly 
-                            due, in part, to my addiction to video games from a young age, my skills in spatial awareness have given me 
-                            a keen ability to visualize how different systems will interact in a virtual 2D or 3D environment which 
-                            plays a large role in developing video games. My passion for this niche of development doesn't solely stem 
-                            from my unique ability to visualize environments while developing, however. One of the main draws for me 
-                            towards game development comes from the absolute freedom of artistic expression that comes from what is 
-                            essentially the most limitless sandbox ever created. Any scene, gameplay element, or artistic piece that you 
-                            can imagine can be created with the right amount of knowledge and dedication to the project! I would love to 
-                            be able to create a virtual experience that can have the same profound impact on future generations that 
-                            the classics like Minecraft, Roblox, Call of Duty, or any of the other classic names in gaming had on me 
-                            growing up! Though I can say that my passion lies in game development above others, I can truly say that 
-                            I have a passion for development as a whole, no matter the topic. In terms of career paths, I might end up 
-                            settling down in another position that I find passion in that isn't game development, but I believe that 
-                            my passion for game development will always find a way to express itself. Even if that ends up being an 
-                            indie project I develop outside of working hours!
+                            What first caused me to settle on computer science was an interest in game development, but, 
+                            throughout my years at college, my passion for programming extended beyond just game development. 
+                            I can truly say that most components of development are interesting to me. I have been introduced 
+                            to many areas of the computer science field including but not limited to frontend development, backend 
+                            development, database design, API design, graphics programming, and artificial intelligence programming. 
+                            Without fail, each of these fields taught me something new with regard to how modern day technological 
+                            systems run and furthered my interest in the vast topics of this field. Though my passion started with 
+                            game development, that passion has expanded to all of the other fields in tech and I am excited to start 
+                            a carreer that fuels that passion for learning!
                         </p>
 
                         {/* My Journey Title */}
